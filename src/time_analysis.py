@@ -153,5 +153,4 @@ for k, v in score.items():
 json_out = json.dumps(new_data, ensure_ascii=False, indent=2)
 with open('case_data.json', 'w') as f:
     f.write(json_out)
-
 # vis
