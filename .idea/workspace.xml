@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf49da59-510f-4ee7-a988-b77b2cc82ad0" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="bf49da59-510f-4ee7-a988-b77b2cc82ad0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_science.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_science.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user_time_feature/handled_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_time_feature/handled_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user_time_feature/user_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_time_feature/user_feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user_time_feature/user_time_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_time_feature/user_time_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/user_time_feature/user_time_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_time_feature/user_time_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/题目难度(原始版)/case_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/题目难度(原始版)/case_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/题目难度(原始版)/score_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/题目难度(原始版)/score_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/题目难度(原始版)/time_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/题目难度(原始版)/time_analysis.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,24 +26,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bIVnctqZ1MeaWYkTz89B7C6S2B" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.pre">
+  <component name="RunManager" selected="Python.time_analysis">
     <configuration name="pre" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_science" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -47,6 +56,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pre.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="score_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_science" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/题目难度(原始版)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/题目难度(原始版)/score_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,8 +108,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="time_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="data_science" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/题目难度(原始版)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/题目难度(原始版)/time_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.time_analysis" />
+        <item itemvalue="Python.score_analysis" />
         <item itemvalue="Python.pre" />
         <item itemvalue="Python.temp" />
       </list>
@@ -95,14 +150,39 @@
       <option name="presentableId" value="Default" />
       <updated>1588319762336</updated>
       <workItem from="1588319763456" duration="25956000" />
+      <workItem from="1590668418105" duration="297000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1036" height="118" key="GridCell.Tab.0.bottom" timestamp="1590668605529">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1036" height="118" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590668605529" />
+    <state width="1036" height="118" key="GridCell.Tab.0.center" timestamp="1590668605529">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1036" height="118" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590668605529" />
+    <state width="1036" height="118" key="GridCell.Tab.0.left" timestamp="1590668605528">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1036" height="118" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590668605528" />
+    <state width="1036" height="118" key="GridCell.Tab.0.right" timestamp="1590668605529">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1036" height="118" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590668605529" />
+    <state x="402" y="100" key="SettingsEditor" timestamp="1590668439500">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="402" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590668439500" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_science$temp.coverage" NAME="temp Coverage Results" MODIFIED="1588350155499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code_data/user_3544/中缀转后缀_1583213500044.zip_unzip" />
+    <SUITE FILE_PATH="coverage/Data_Science$time_analysis.coverage" NAME="time_analysis Coverage Results" MODIFIED="1590668605521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/题目难度(原始版)" />
     <SUITE FILE_PATH="coverage/data_science$pre.coverage" NAME="pre Coverage Results" MODIFIED="1588387350953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Data_Science$score_analysis.coverage" NAME="score_analysis Coverage Results" MODIFIED="1590668596464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/题目难度(原始版)" />
   </component>
 </project>

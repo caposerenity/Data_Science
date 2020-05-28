@@ -1,6 +1,7 @@
 import json
 import time
 
+
 # 注意：先跑user_time_analysis.py 再跑user_feature.py
 # 生成 user_time_data.json : 储存用户有关时间的所有数据, 以user_id为key, 并对题目类型进行分类
 # 生成 user_coffee.json : 储存用户所有题目上传时间记录
@@ -25,7 +26,7 @@ out_coffee = {}
 for user in data:
     user_id = user["user_id"]
     cases = user["cases"]
-    out_dict[user_id] = {'user_id': user_id,"feature_data":[],"feature_description":[]}
+    out_dict[user_id] = {'user_id': user_id, "feature_data": [], "feature_description": []}
     out_coffee[user_id] = {"user_id": user_id}
     for case in cases:
         out_dict[user_id][case["case_type"]] = {"type": case["case_type"], "total_num": 0, "cheat_num": 0,
@@ -42,7 +43,6 @@ for user in data:
         # user_coffee
         for record in case["upload_records"]:
             out_coffee[user_id][case["case_id"]].append(timestamp_to_str(record["upload_time"]))
-
         # user_time_data
         type = out_dict[user_id][case["case_type"]]
         if (case["final_cheat"]):
@@ -58,9 +58,11 @@ for user in data:
             type["upload_nums"].append(case["upload_numbers"])
             type["aver_numbers"] += case["upload_numbers"]
             type["aver_intervals(min)"] += case["upload_interval"]
-    if (type["valid_num"] == 0): continue
-    type["aver_numbers"] = round(type["aver_numbers"] / type["valid_num"], 2)
-    type["aver_intervals(min)"] = round(type["aver_intervals(min)"] / type["valid_num"], 2)
+    for case_ty in out_dict[user["user_id"]].keys():
+        if case_ty == "user_id" or case_ty == "feature_data" or case_ty == "feature_description": continue
+        if len(out_dict[user["user_id"]][case_ty]["upload_nums"]) == 0: continue
+        out_dict[user["user_id"]][case_ty]["aver_numbers"] /= len(out_dict[user["user_id"]][case_ty]["upload_nums"])
+        out_dict[user["user_id"]][case_ty]["aver_intervals(min)"]/=len(out_dict[user["user_id"]][case_ty]["upload_nums"])
 
 for k, v in out_dict.items():
     print(v)

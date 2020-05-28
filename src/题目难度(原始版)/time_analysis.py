@@ -1,7 +1,7 @@
 import json
 import time
 
-f = open('handled_data.json', encoding='utf-8')
+f = open('handled_data.json', encoding='gbk')
 res = f.read()
 data = json.loads(res)
 data = list(dict.values(data))
@@ -45,14 +45,14 @@ def get_time_interval(fir, sec):
     return interval
 
 
-def get_std_time(min):
-    if(min==0):return ""
-    res = ["0", "day-", "0", "hour-", "0", "min"]
-    res[0] = str(min // 1440)
-    min %= 1440
-    res[2] = str(min // 60)
-    res[4] = str(min % 60)
-    return "".join(res)
+# def get_std_time(min):
+#     if (min == 0): return ""
+#     res = ["0", "day-", "0", "hour-", "0", "min"]
+#     res[0] = str(min // 1440)
+#     min %= 1440
+#     res[2] = str(min // 60)
+#     res[4] = str(min % 60)
+#     return "".join(res)
 
 
 # param : interval(min)
@@ -112,7 +112,7 @@ for user in data:
         final_score = case["final_score"]
         upload_num = 0
         if case["final_cheat"]:
-            score[case_id]=new_data[case_id]["final_score"]*0.7
+            score[case_id] = new_data[case_id]["final_score"] * 0.7
         else:
             if not case["upload_records"]:
                 # not upload
@@ -127,27 +127,33 @@ for user in data:
                     last_time = upload_localtime
                     upload_num += 1
             score[case_id] = getScore_base_numbers(upload_num, case_id)
-            score[case_id] = (score[case_id] + getScore_base_interval(get_time_interval(first_time, last_time), case_id))
+            score[case_id] = (
+                    score[case_id] + getScore_base_interval(get_time_interval(first_time, last_time), case_id))
             # add item : upload_last_time
             case["upload_first_time"] = first_time
             case["upload_last_time"] = last_time
-            case["upload_interval"] = get_std_time(get_time_interval(first_time, last_time))
+            case["upload_interval"] = get_time_interval(first_time, last_time)
             case["upload_numbers"] = upload_num
-            new_data[case_id]["upload_intervals"].append(case["upload_interval"])
+            new_data[case_id]["upload_intervals(min)"].append(case["upload_interval"])
             new_data[case_id]["upload_numbers"].append(case["upload_numbers"])
+            new_data[case_id]["average_interval(min)"] += get_time_interval(first_time, last_time)
+            new_data[case_id]["average_numbers"] += upload_num
     # print([case_id, last_time, final_score, case["final_cheat"]])
     output_dict_user[user["user_id"]] = user
 json_out_ = json.dumps(output_dict_user, ensure_ascii=False, indent=2)
 with open('handled_data.json', 'w') as fp:
     fp.write(json_out_)
 
+
 for id in new_data:
-    new_data[id]["upload_intervals"].sort()
+    new_data[id]["upload_intervals(min)"].sort()
     new_data[id]["upload_numbers"].sort()
 
 for k, v in score.items():
-    new_data[k]["final_score"] = round((new_data[k]["final_score"] + v/len(new_data[k]["upload_numbers"])),2)
-
+    new_data[k]["final_score"] = round((new_data[k]["final_score"] + v / len(new_data[k]["upload_numbers"])), 2)
+    new_data[k]["average_numbers"] = round((new_data[k]["average_numbers"] / len(new_data[k]["upload_numbers"])), 2)
+    new_data[k]["average_interval(min)"] = round(
+        (new_data[k]["average_interval(min)"] / len(new_data[k]["upload_numbers"])), 2)
 
 # get result
 json_out = json.dumps(new_data, ensure_ascii=False, indent=2)
