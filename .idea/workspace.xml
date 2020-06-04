@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf49da59-510f-4ee7-a988-b77b2cc82ad0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_science.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_science.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user_time_feature/handled_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_time_feature/handled_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user_time_feature/user_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_time_feature/user_feature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user_time_feature/user_time_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_time_feature/user_time_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/user_time_feature/user_time_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/user_time_feature/user_time_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/题目难度(原始版)/case_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/题目难度(原始版)/case_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/题目难度(原始版)/score_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/题目难度(原始版)/score_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/题目难度(原始版)/time_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/题目难度(原始版)/time_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,30 +140,46 @@
       <option name="presentableId" value="Default" />
       <updated>1588319762336</updated>
       <workItem from="1588319763456" duration="25956000" />
-      <workItem from="1590668418105" duration="297000" />
+      <workItem from="1590668418105" duration="532000" />
     </task>
+    <task id="LOCAL-00001" summary="add: 增加时间特征">
+      <created>1590668829135</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590668829135</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add: 增加时间特征" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: 增加时间特征" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1036" height="118" key="GridCell.Tab.0.bottom" timestamp="1590668605529">
+    <state x="258" y="64" key="CommitChangelistDialog2" timestamp="1590668823390">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1036" height="118" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590668605529" />
-    <state width="1036" height="118" key="GridCell.Tab.0.center" timestamp="1590668605529">
+    <state x="258" y="64" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1590668823390" />
+    <state width="1036" height="118" key="GridCell.Tab.0.bottom" timestamp="1590668953698">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1036" height="118" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590668605529" />
-    <state width="1036" height="118" key="GridCell.Tab.0.left" timestamp="1590668605528">
+    <state width="1036" height="118" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590668953698" />
+    <state width="1036" height="118" key="GridCell.Tab.0.center" timestamp="1590668953697">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1036" height="118" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590668605528" />
-    <state width="1036" height="118" key="GridCell.Tab.0.right" timestamp="1590668605529">
+    <state width="1036" height="118" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590668953697" />
+    <state width="1036" height="118" key="GridCell.Tab.0.left" timestamp="1590668953697">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1036" height="118" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590668605529" />
+    <state width="1036" height="118" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590668953697" />
+    <state width="1036" height="118" key="GridCell.Tab.0.right" timestamp="1590668953698">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1036" height="118" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590668953698" />
     <state x="402" y="100" key="SettingsEditor" timestamp="1590668439500">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
