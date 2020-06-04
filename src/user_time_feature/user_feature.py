@@ -71,7 +71,7 @@ def is_in_24(times):
     return False
 
 
-f = open('user_time_data.json', encoding='utf-8')
+f = open('user_time_data.json', encoding='gbk')
 res = f.read()
 data = json.loads(res)
 
@@ -209,7 +209,7 @@ json_out = json.dumps(data, ensure_ascii=False, indent=2)
 with open('user_time_data.json', 'w') as f:
     f.write(json_out)
 
-f = open('user_time_data.json', encoding='utf-8')
+f = open('user_time_data.json', encoding='gbk')
 res = f.read()
 data = json.loads(res)
 
