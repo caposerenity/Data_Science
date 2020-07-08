@@ -70,7 +70,7 @@ for case in data:
     case.pop('below20')
     case.pop('case_point')
     case.pop('1A_case')
-    case.pop('upload_intervals')
+    case.pop('upload_intervals(min)')
     case.pop('upload_numbers')
     case.pop('fullpoint')
     output_dict[case["case_id"]] = case
