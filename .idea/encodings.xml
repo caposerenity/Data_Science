@@ -2,10 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/handled_data.json" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/handled_data.json" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/handled_data.json" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/handled_data.json" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/handled_data.json" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/handled_data.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/代码风格评估/difficulty_origin_data.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/复杂度/collect_problem_data&amp;rank.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/复杂度/problem_data.json" charset="GBK" />
   </component>
 </project>

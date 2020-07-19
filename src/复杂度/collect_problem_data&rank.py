@@ -29,6 +29,7 @@ for user in data:
                 filename = urllib.parse.unquote(os.path.basename(record["code_url"]))
                 problem_name = filename.split('_')[0]
 
+
                 if record["score"] == 100:
                     line_count = (line_count * num + record["count_line"]) / (num + 1)
                     note_count = (note_count * num + record["note_line"]) / (num + 1)
