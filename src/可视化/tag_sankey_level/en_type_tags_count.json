@@ -1,0 +1,1188 @@
+{
+  "Search algorithm.": {
+    "total": 150,
+    "BFS": {
+      "num": 12,
+      "percent": 0.08
+    },
+    "Dynamic programming": {
+      "num": 14,
+      "percent": 0.093
+    },
+    "Union-find sets": {
+      "num": 12,
+      "percent": 0.08
+    },
+    "Graph": {
+      "num": 3,
+      "percent": 0.02
+    },
+    "DFS": {
+      "num": 16,
+      "percent": 0.107
+    },
+    "Binary search": {
+      "num": 38,
+      "percent": 0.253
+    },
+    "Double pointer": {
+      "num": 7,
+      "percent": 0.047
+    },
+    "Topological sorting": {
+      "num": 2,
+      "percent": 0.013
+    },
+    "greedy": {
+      "num": 5,
+      "percent": 0.033
+    },
+    "Divide and conquer": {
+      "num": 3,
+      "percent": 0.02
+    },
+    "Quicksort": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "Heapsort": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "Priority queue": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "Backtracking": {
+      "num": 3,
+      "percent": 0.02
+    },
+    "Hash": {
+      "num": 5,
+      "percent": 0.033
+    },
+    "Bits": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "Slide window": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "Binary tree": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "Sorting": {
+      "num": 3,
+      "percent": 0.02
+    },
+    "Hash table": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "Array": {
+      "num": 9,
+      "percent": 0.06
+    },
+    "Heap": {
+      "num": 3,
+      "percent": 0.02
+    },
+    "Queue": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "Slide window": {
+      "num": 3,
+      "percent": 0.02
+    },
+    "Mathematics": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "Tree array": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "Segment Tree": {
+      "num": 1,
+      "percent": 0.007
+    },
+    "String": {
+      "num": 1,
+      "percent": 0.007
+    }
+  },
+  "Digital operation.": {
+    "total": 270,
+    "Bits": {
+      "num": 8,
+      "percent": 0.03
+    },
+    "Mathematics": {
+      "num": 142,
+      "percent": 0.526
+    },
+    "greedy": {
+      "num": 7,
+      "percent": 0.026
+    },
+    "Binary search": {
+      "num": 12,
+      "percent": 0.044
+    },
+    "Three pointers": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "Divide and conquer": {
+      "num": 5,
+      "percent": 0.019
+    },
+    "Dynamic programming": {
+      "num": 19,
+      "percent": 0.07
+    },
+    "Hash": {
+      "num": 6,
+      "percent": 0.022
+    },
+    "Backtracking": {
+      "num": 7,
+      "percent": 0.026
+    },
+    "DFS": {
+      "num": 5,
+      "percent": 0.019
+    },
+    "Double pointer": {
+      "num": 2,
+      "percent": 0.007
+    },
+    "Manhattan Distance": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "Digital operation": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "Gray Code": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "Sorting": {
+      "num": 3,
+      "percent": 0.011
+    },
+    "Array": {
+      "num": 12,
+      "percent": 0.044
+    },
+    "Minmax": {
+      "num": 2,
+      "percent": 0.007
+    },
+    "Heap": {
+      "num": 3,
+      "percent": 0.011
+    },
+    "Hash table": {
+      "num": 5,
+      "percent": 0.019
+    },
+    "String": {
+      "num": 14,
+      "percent": 0.052
+    },
+    "Stack": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "BFS": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "Brainteasers": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "geometry": {
+      "num": 5,
+      "percent": 0.019
+    },
+    "Digital": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "Tree": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "Union-find sets": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "Recursive": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "Divide and conquer": {
+      "num": 1,
+      "percent": 0.004
+    },
+    "Graph": {
+      "num": 1,
+      "percent": 0.004
+    }
+  },
+  "Array.": {
+    "total": 193,
+    "Hash": {
+      "num": 16,
+      "percent": 0.083
+    },
+    "Sorting": {
+      "num": 26,
+      "percent": 0.135
+    },
+    "Quicksort": {
+      "num": 2,
+      "percent": 0.01
+    },
+    "Double pointer": {
+      "num": 6,
+      "percent": 0.031
+    },
+    "Enumeration": {
+      "num": 3,
+      "percent": 0.016
+    },
+    "Bucketsort": {
+      "num": 2,
+      "percent": 0.01
+    },
+    "Mode": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Backtracking": {
+      "num": 2,
+      "percent": 0.01
+    },
+    "DFS": {
+      "num": 3,
+      "percent": 0.016
+    },
+    "Bits": {
+      "num": 4,
+      "percent": 0.021
+    },
+    "Divide and conquer": {
+      "num": 7,
+      "percent": 0.036
+    },
+    "Array": {
+      "num": 30,
+      "percent": 0.155
+    },
+    "Union-find sets": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Mathematics": {
+      "num": 24,
+      "percent": 0.124
+    },
+    "Heapsort": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Binary search": {
+      "num": 8,
+      "percent": 0.041
+    },
+    "Dynamic programming": {
+      "num": 10,
+      "percent": 0.052
+    },
+    "Force": {
+      "num": 2,
+      "percent": 0.01
+    },
+    "greedy": {
+      "num": 6,
+      "percent": 0.031
+    },
+    "Special": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Stack": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Simulate": {
+      "num": 5,
+      "percent": 0.026
+    },
+    "Probability theory": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Binary Search": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Search": {
+      "num": 6,
+      "percent": 0.031
+    },
+    "Permutation": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Tree array": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "PTA": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "String": {
+      "num": 4,
+      "percent": 0.021
+    },
+    "Recursive": {
+      "num": 2,
+      "percent": 0.01
+    },
+    "bit magic": {
+      "num": 1,
+      "percent": 0.005
+    },
+    
+    "Heap": {
+      "num": 2,
+      "percent": 0.01
+    },
+    "Hash table": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "BFS": {
+      "num": 2,
+      "percent": 0.01
+    },
+    "Fibonacci": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Binary": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Greedy": {
+      "num": 5,
+      "percent": 0.026
+    },
+    "Constructive Algorithm": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Block": {
+      "num": 1,
+      "percent": 0.005
+    }
+  },
+  "ArrayList.": {
+    "total": 185,
+    "Bits": {
+      "num": 4,
+      "percent": 0.022
+    },
+    "ArrayList": {
+      "num": 15,
+      "percent": 0.081
+    },
+    "Dynamic programming": {
+      "num": 20,
+      "percent": 0.108
+    },
+    "Mathematics": {
+      "num": 49,
+      "percent": 0.265
+    },
+    "Dictionary": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "greedy": {
+      "num": 5,
+      "percent": 0.027
+    },
+    "Divide and conquer": {
+      "num": 2,
+      "percent": 0.011
+    },
+    "Hash": {
+      "num": 13,
+      "percent": 0.07
+    },
+    "Slide window": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "String": {
+      "num": 17,
+      "percent": 0.092
+    },
+    "Sequence": {
+      "num": 2,
+      "percent": 0.011
+    },
+    "Evaluation": {
+      "num": 2,
+      "percent": 0.011
+    },
+    "Sorting": {
+      "num": 6,
+      "percent": 0.032
+    },
+    "bit magic": {
+      "num": 13,
+      "percent": 0.07
+    },
+    "Binary search": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Stack": {
+      "num": 7,
+      "percent": 0.038
+    },
+    "Permutation": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "PTA": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Search": {
+      "num": 3,
+      "percent": 0.016
+    },
+    "DFS": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Graph": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Subseries": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Linked list": {
+      "num": 2,
+      "percent": 0.011
+    },
+    "Array": {
+      "num": 6,
+      "percent": 0.032
+    },
+    "Logical": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "geometry": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Matrix": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Recursive": {
+      "num": 4,
+      "percent": 0.022
+    },
+    "Queue": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Traverse": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Guessing game": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Binary": {
+      "num": 1,
+      "percent": 0.005
+    }
+  },
+  "Tree structure.": {
+    "total": 222,
+    "Chairman Tree": {
+      "num": 4,
+      "percent": 0.018
+    },
+    "Tree array": {
+      "num": 6,
+      "percent": 0.027
+    },
+    "Sorting": {
+      "num": 3,
+      "percent": 0.014
+    },
+    "Dynamic programming": {
+      "num": 11,
+      "percent": 0.05
+    },
+    "Durable": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "Hash": {
+      "num": 6,
+      "percent": 0.027
+    },
+    "Trie": {
+      "num": 6,
+      "percent": 0.027
+    },
+    "AVL": {
+      "num": 9,
+      "percent": 0.041
+    },
+    "Segment Tree": {
+      "num": 28,
+      "percent": 0.126
+    },
+    "DFS": {
+      "num": 11,
+      "percent": 0.05
+    },
+    "Aho-Corasick automaton": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "QTREE": {
+      "num": 3,
+      "percent": 0.014
+    },
+    "Multiplier": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "Suffix Array": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "Simulate": {
+      "num": 10,
+      "percent": 0.045
+    },
+    "String": {
+      "num": 5,
+      "percent": 0.023
+    },
+    "LCA": {
+      "num": 4,
+      "percent": 0.018
+    },
+    "EnumerationForce": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Prime": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Prefix Sum": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "Graph Theory": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "HPC": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "Tree": {
+      "num": 20,
+      "percent": 0.091
+    },
+    "Subsequence": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Enumeration": {
+      "num": 6,
+      "percent": 0.027
+    },
+    "greedy": {
+      "num": 8,
+      "percent": 0.036
+    },
+    "High-Level": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "STP": {
+      "num": 6,
+      "percent": 0.027
+    },
+    "Search": {
+      "num": 9,
+      "percent": 0.041
+    },
+    "Recursive": {
+      "num": 7,
+      "percent": 0.032
+    },
+    "Cattelan": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Stack": {
+      "num": 3,
+      "percent": 0.014
+    },
+    "Array": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Splay Tree": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Graph": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "Union-find sets": {
+      "num": 4,
+      "percent": 0.018
+    },
+    "Greedy": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "Binary": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "DP-Tree": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Block": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Max Flow": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "Minimum Cut": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Mergesort": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "TRIETree": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Tree": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "Binary Search": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "sap": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "BFS": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "Adjacent Matrix": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Mathematics": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Binary search": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Quicksort": {
+      "num": 2,
+      "percent": 0.009
+    },
+    "DFS": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "splay": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Probability theory": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Statistics": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Network flow": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Adjacency list": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Differences": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Binary Heap": {
+      "num": 1,
+      "percent": 0.005
+    },
+    "Priority queue": {
+      "num": 1,
+      "percent": 0.005
+    }
+  },
+  "Graph structure.": {
+    "total": 89,
+    "BFS": {
+      "num": 6,
+      "percent": 0.067
+    },
+    "Dynamic programming": {
+      "num": 3,
+      "percent": 0.034
+    },
+    "DFS": {
+      "num": 8,
+      "percent": 0.09
+    },
+    "Union-find sets": {
+      "num": 2,
+      "percent": 0.022
+    },
+    "Topological sorting": {
+      "num": 3,
+      "percent": 0.034
+    },
+    "Adjacency list": {
+      "num": 2,
+      "percent": 0.022
+    },
+    "Graph": {
+      "num": 6,
+      "percent": 0.067
+    },
+    "Naximum matching": {
+      "num": 3,
+      "percent": 0.034
+    },
+    "Bipartite graph": {
+      "num": 3,
+      "percent": 0.034
+    },
+    "HPC": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Tree": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "STP": {
+      "num": 2,
+      "percent": 0.022
+    },
+    "Tolerance": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Greedy": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Strongly Connected": {
+      "num": 6,
+      "percent": 0.067
+    },
+    "Priority queue": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Skew heap": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Segment Tree": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "QTREE": {
+      "num": 2,
+      "percent": 0.022
+    },
+    "Graph Theory": {
+      "num": 7,
+      "percent": 0.079
+    },
+    "Multiplier": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "LCA": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Stack": {
+      "num": 2,
+      "percent": 0.022
+    },
+    "SearchTree": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Cut point": {
+      "num": 2,
+      "percent": 0.022
+    },
+    "Search": {
+      "num": 4,
+      "percent": 0.045
+    },
+    "Network flow": {
+      "num": 2,
+      "percent": 0.022
+    },
+    "Euler Graph": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Slide Array": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "State speed": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Dynamic Tree": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Permutation": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Max Flow": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Binary Search": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Fractional Programming": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Simulate": {
+      "num": 2,
+      "percent": 0.022
+    },
+    "2-sat": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Matrix Multiply": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Force": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Bipartite matching": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Prefix Sum": {
+      "num": 1,
+      "percent": 0.011
+    },
+    "Flat Graph": {
+      "num": 1,
+      "percent": 0.011
+    }
+  },
+  "String.": {
+    "total": 106,
+    "Dynamic programming": {
+      "num": 8,
+      "percent": 0.075
+    },
+    "Binary search": {
+      "num": 2,
+      "percent": 0.019
+    },
+    "Sorting": {
+      "num": 6,
+      "percent": 0.057
+    },
+    "String": {
+      "num": 33,
+      "percent": 0.311
+    },
+    "Mathematics": {
+      "num": 3,
+      "percent": 0.028
+    },
+    "geometry": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "Double pointer": {
+      "num": 2,
+      "percent": 0.019
+    },
+    "Segment Tree": {
+      "num": 2,
+      "percent": 0.019
+    },
+    "Chairman Tree": {
+      "num": 2,
+      "percent": 0.019
+    },
+    "Suffix Array": {
+      "num": 4,
+      "percent": 0.038
+    },
+    "Heap": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "Hash table": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "Linear": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "Stack": {
+      "num": 2,
+      "percent": 0.019
+    },
+    "Hash": {
+      "num": 5,
+      "percent": 0.047
+    },
+    "Simulate": {
+      "num": 5,
+      "percent": 0.047
+    },
+    "Enumeration": {
+      "num": 4,
+      "percent": 0.038
+    },
+    "FFT": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "greedy": {
+      "num": 2,
+      "percent": 0.019
+    },
+    "Queue": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "arrange": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "Recursive": {
+      "num": 3,
+      "percent": 0.028
+    },
+    "Bits": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "Tree array": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "DFS": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "Divide and conquer": {
+      "num": 2,
+      "percent": 0.018
+    },
+    "Search": {
+      "num": 2,
+      "percent": 0.019
+    },
+    "Simplesort": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "Aho-Corasick automaton": {
+      "num": 1,
+      "percent": 0.009
+    },
+  
+    "Character handling": {
+      "num": 3,
+      "percent": 0.028
+    },
+    "Array": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "Regular Expression": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "quickpow": {
+      "num": 1,
+      "percent": 0.009
+    },
+    "02SEO": {
+      "num": 1,
+      "percent": 0.009
+    }
+  },
+  "Sorting.": {
+    "total": 54,
+    "Divide and conquer": {
+      "num": 4,
+      "percent": 0.077
+    },
+    "Sorting": {
+      "num": 8,
+      "percent": 0.154
+    },
+    "DFS": {
+      "num": 2,
+      "percent": 0.038
+    },
+    "Array": {
+      "num": 6,
+      "percent": 0.115
+    },
+    "Stack": {
+      "num": 1,
+      "percent": 0.019
+    },
+    "Binary search": {
+      "num": 3,
+      "percent": 0.058
+    },
+    "Union-find sets": {
+      "num": 1,
+      "percent": 0.019
+    },
+    "greedy": {
+      "num": 2,
+      "percent": 0.038
+    },
+    "Hash table": {
+      "num": 2,
+      "percent": 0.038
+    },
+    "Queue": {
+      "num": 1,
+      "percent": 0.019
+    },
+    "ArrayList": {
+      "num": 2,
+      "percent": 0.038
+    },
+    "Mergesort": {
+      "num": 1,
+      "percent": 0.019
+    },
+    "Insertion sort": {
+      "num": 1,
+      "percent": 0.019
+    },
+    "TreeHeap": {
+      "num": 1,
+      "percent": 0.019
+    },
+    "Splay Tree": {
+      "num": 1,
+      "percent": 0.019
+    },
+    "Simulate": {
+      "num": 1,
+      "percent": 0.019
+    },
+    "Double pointer": {
+      "num": 3,
+      "percent": 0.058
+    },
+    "Heap": {
+      "num": 2,
+      "percent": 0.038
+    },
+    "Tree array": {
+      "num": 2,
+      "percent": 0.038
+    },
+    "Segment Tree": {
+      "num": 2,
+      "percent": 0.038
+    },
+    "String": {
+      "num": 1,
+      "percent": 0.019
+    },
+    "Hash": {
+      "num": 2,
+      "percent": 0.038
+    },
+    "Heapsort": {
+      "num": 1,
+      "percent": 0.019
+    },
+    "Mathematics": {
+      "num": 3,
+      "percent": 0.038
+    }
+  }
+}

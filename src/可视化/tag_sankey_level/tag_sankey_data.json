@@ -1,0 +1,1956 @@
+{
+  "nodes": [
+    {
+      "name": "Total"
+    },
+    {
+      "name": "查找算法."
+    },
+    {
+      "name": "数字操作."
+    },
+    {
+      "name": "数组算法."
+    },
+    {
+      "name": "线性表."
+    },
+    {
+      "name": "树结构."
+    },
+    {
+      "name": "图结构."
+    },
+    {
+      "name": "字符串."
+    },
+    {
+      "name": "排序算法."
+    },
+    {
+      "name": "广度优先搜索"
+    },
+    {
+      "name": "动态规划"
+    },
+    {
+      "name": "并查集"
+    },
+    {
+      "name": "图"
+    },
+    {
+      "name": "深度优先搜索"
+    },
+    {
+      "name": "二分查找"
+    },
+    {
+      "name": "双指针"
+    },
+    {
+      "name": "拓扑排序"
+    },
+    {
+      "name": "贪心算法"
+    },
+    {
+      "name": "分治算法"
+    },
+    {
+      "name": "快排"
+    },
+    {
+      "name": "堆排"
+    },
+    {
+      "name": "优先队列"
+    },
+    {
+      "name": "回溯算法"
+    },
+    {
+      "name": "哈希"
+    },
+    {
+      "name": "位运算"
+    },
+    {
+      "name": "滑窗"
+    },
+    {
+      "name": "二叉树"
+    },
+    {
+      "name": "排序"
+    },
+    {
+      "name": "哈希表"
+    },
+    {
+      "name": "数组"
+    },
+    {
+      "name": "堆"
+    },
+    {
+      "name": "队列"
+    },
+    {
+      "name": "滑动窗口"
+    },
+    {
+      "name": "数学"
+    },
+    {
+      "name": "树状数组"
+    },
+    {
+      "name": "线段树"
+    },
+    {
+      "name": "字符串"
+    },
+    {
+      "name": "三指针"
+    },
+    {
+      "name": "曼哈顿距离"
+    },
+    {
+      "name": "数字操作"
+    },
+    {
+      "name": "格雷码"
+    },
+    {
+      "name": "极小化极大"
+    },
+    {
+      "name": "栈"
+    },
+    {
+      "name": "广度优先搜多"
+    },
+    {
+      "name": "脑筋急转弯"
+    },
+    {
+      "name": "几何"
+    },
+    {
+      "name": "数字"
+    },
+    {
+      "name": "树"
+    },
+    {
+      "name": "递归"
+    },
+    {
+      "name": "分治"
+    },
+    {
+      "name": "枚举"
+    },
+    {
+      "name": "桶排"
+    },
+    {
+      "name": "众数"
+    },
+    {
+      "name": "暴力"
+    },
+    {
+      "name": "特殊问题"
+    },
+    {
+      "name": "模拟"
+    },
+    {
+      "name": "概率论"
+    },
+    {
+      "name": "二分搜索"
+    },
+    {
+      "name": "搜索"
+    },
+    {
+      "name": "排列组合"
+    },
+    {
+      "name": "模式匹配"
+    },
+    {
+      "name": "bit magic"
+    },
+    {
+      "name": "搜素"
+    },
+    {
+      "name": "斐波那契"
+    },
+    {
+      "name": "二进制"
+    },
+    {
+      "name": "贪心"
+    },
+    {
+      "name": "构造算法"
+    },
+    {
+      "name": "分块"
+    },
+    {
+      "name": "线性表"
+    },
+    {
+      "name": "字典"
+    },
+    {
+      "name": "序列"
+    },
+    {
+      "name": "表达评估"
+    },
+    {
+      "name": "子序列"
+    },
+    {
+      "name": "链表"
+    },
+    {
+      "name": "逻辑"
+    },
+    {
+      "name": "矩阵"
+    },
+    {
+      "name": "遍历"
+    },
+    {
+      "name": "猜谜游戏"
+    },
+    {
+      "name": "主席树"
+    },
+    {
+      "name": "可持久化"
+    },
+    {
+      "name": "字典树"
+    },
+    {
+      "name": "平衡树"
+    },
+    {
+      "name": "AC自动机"
+    },
+    {
+      "name": "树链剖分"
+    },
+    {
+      "name": "倍增"
+    },
+    {
+      "name": "后缀数组"
+    },
+    {
+      "name": "最近公共祖先"
+    },
+    {
+      "name": "枚举暴力"
+    },
+    {
+      "name": "素数判断"
+    },
+    {
+      "name": "前缀和"
+    },
+    {
+      "name": "图论"
+    },
+    {
+      "name": "树形结构"
+    },
+    {
+      "name": "?树套树"
+    },
+    {
+      "name": "高性能"
+    },
+    {
+      "name": "单调队列"
+    },
+    {
+      "name": "高级结构"
+    },
+    {
+      "name": "生成树"
+    },
+    {
+      "name": "卡特兰"
+    },
+    {
+      "name": "伸展树"
+    },
+    {
+      "name": "进制"
+    },
+    {
+      "name": "树型动规"
+    },
+    {
+      "name": "最大流"
+    },
+    {
+      "name": "最小割"
+    },
+    {
+      "name": "归并排序"
+    },
+    {
+      "name": "TRIE树"
+    },
+    {
+      "name": "树结构"
+    },
+    {
+      "name": "二分答案"
+    },
+    {
+      "name": "sap"
+    },
+    {
+      "name": "邻接矩阵"
+    },
+    {
+      "name": "深度优先算法"
+    },
+    {
+      "name": "splay"
+    },
+    {
+      "name": "统计"
+    },
+    {
+      "name": "网络流"
+    },
+    {
+      "name": "邻接表"
+    },
+    {
+      "name": "差分"
+    },
+    {
+      "name": "二叉堆"
+    },
+    {
+      "name": "广度优先遍历"
+    },
+    {
+      "name": "最大匹配"
+    },
+    {
+      "name": "二分图"
+    },
+    {
+      "name": "容斥"
+    },
+    {
+      "name": "强连通分量"
+    },
+    {
+      "name": "斜堆"
+    },
+    {
+      "name": "搜索树"
+    },
+    {
+      "name": "割点"
+    },
+    {
+      "name": "欧拉图"
+    },
+    {
+      "name": "滑动数组"
+    },
+    {
+      "name": "状态速度"
+    },
+    {
+      "name": "动态树"
+    },
+    {
+      "name": "记忆化搜索"
+    },
+    {
+      "name": "分数规划"
+    },
+    {
+      "name": "2-sat"
+    },
+    {
+      "name": "矩阵乘法"
+    },
+    {
+      "name": "二分匹配"
+    },
+    {
+      "name": "平面图"
+    },
+    {
+      "name": "线性结构"
+    },
+    {
+      "name": "快速傅里叶变换"
+    },
+    {
+      "name": "排列"
+    },
+    {
+      "name": "简单排序"
+    },
+    {
+      "name": "点分治"
+    },
+    {
+      "name": "字符处理"
+    },
+    {
+      "name": "正则表达式"
+    },
+    {
+      "name": "矩阵快速幂优化"
+    },
+    {
+      "name": "O2优化"
+    },
+    {
+      "name": "插入排序"
+    },
+    {
+      "name": "树堆"
+    }
+  ],
+  "links": [
+    {
+      "source": "Total",
+      "target": "查找算法.",
+      "value": 0.11838989739542226
+    },
+    {
+      "source": "Total",
+      "target": "数字操作.",
+      "value": 0.21310181531176006
+    },
+    {
+      "source": "Total",
+      "target": "数组算法.",
+      "value": 0.15232833464877663
+    },
+    {
+      "source": "Total",
+      "target": "线性表.",
+      "value": 0.14601420678768745
+    },
+    {
+      "source": "Total",
+      "target": "树结构.",
+      "value": 0.17521704814522493
+    },
+    {
+      "source": "Total",
+      "target": "图结构.",
+      "value": 0.0702446724546172
+    },
+    {
+      "source": "Total",
+      "target": "字符串.",
+      "value": 0.08366219415943173
+    },
+    {
+      "source": "Total",
+      "target": "排序算法.",
+      "value": 0.04104183109707971
+    },
+    {
+      "source": "查找算法.",
+      "target": "广度优先搜索",
+      "value": 0.08
+    },
+    {
+      "source": "查找算法.",
+      "target": "动态规划",
+      "value": 0.093
+    },
+    {
+      "source": "查找算法.",
+      "target": "并查集",
+      "value": 0.08
+    },
+    {
+      "source": "查找算法.",
+      "target": "图",
+      "value": 0.02
+    },
+    {
+      "source": "查找算法.",
+      "target": "深度优先搜索",
+      "value": 0.107
+    },
+    {
+      "source": "查找算法.",
+      "target": "二分查找",
+      "value": 0.253
+    },
+    {
+      "source": "查找算法.",
+      "target": "双指针",
+      "value": 0.047
+    },
+    {
+      "source": "查找算法.",
+      "target": "拓扑排序",
+      "value": 0.013
+    },
+    {
+      "source": "查找算法.",
+      "target": "贪心算法",
+      "value": 0.033
+    },
+    {
+      "source": "查找算法.",
+      "target": "分治算法",
+      "value": 0.02
+    },
+    {
+      "source": "查找算法.",
+      "target": "快排",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "堆排",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "优先队列",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "回溯算法",
+      "value": 0.02
+    },
+    {
+      "source": "查找算法.",
+      "target": "哈希",
+      "value": 0.033
+    },
+    {
+      "source": "查找算法.",
+      "target": "位运算",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "滑窗",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "二叉树",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "排序",
+      "value": 0.02
+    },
+    {
+      "source": "查找算法.",
+      "target": "哈希表",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "数组",
+      "value": 0.06
+    },
+    {
+      "source": "查找算法.",
+      "target": "堆",
+      "value": 0.02
+    },
+    {
+      "source": "查找算法.",
+      "target": "队列",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "滑动窗口",
+      "value": 0.02
+    },
+    {
+      "source": "查找算法.",
+      "target": "数学",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "树状数组",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "线段树",
+      "value": 0.007
+    },
+    {
+      "source": "查找算法.",
+      "target": "字符串",
+      "value": 0.007
+    },
+    {
+      "source": "数字操作.",
+      "target": "位运算",
+      "value": 0.03
+    },
+    {
+      "source": "数字操作.",
+      "target": "数学",
+      "value": 0.526
+    },
+    {
+      "source": "数字操作.",
+      "target": "贪心算法",
+      "value": 0.026
+    },
+    {
+      "source": "数字操作.",
+      "target": "二分查找",
+      "value": 0.044
+    },
+    {
+      "source": "数字操作.",
+      "target": "三指针",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "分治算法",
+      "value": 0.019
+    },
+    {
+      "source": "数字操作.",
+      "target": "动态规划",
+      "value": 0.07
+    },
+    {
+      "source": "数字操作.",
+      "target": "哈希",
+      "value": 0.022
+    },
+    {
+      "source": "数字操作.",
+      "target": "回溯算法",
+      "value": 0.026
+    },
+    {
+      "source": "数字操作.",
+      "target": "深度优先搜索",
+      "value": 0.019
+    },
+    {
+      "source": "数字操作.",
+      "target": "双指针",
+      "value": 0.007
+    },
+    {
+      "source": "数字操作.",
+      "target": "曼哈顿距离",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "数字操作",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "格雷码",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "排序",
+      "value": 0.011
+    },
+    {
+      "source": "数字操作.",
+      "target": "数组",
+      "value": 0.044
+    },
+    {
+      "source": "数字操作.",
+      "target": "极小化极大",
+      "value": 0.007
+    },
+    {
+      "source": "数字操作.",
+      "target": "堆",
+      "value": 0.011
+    },
+    {
+      "source": "数字操作.",
+      "target": "哈希表",
+      "value": 0.019
+    },
+    {
+      "source": "数字操作.",
+      "target": "字符串",
+      "value": 0.052
+    },
+    {
+      "source": "数字操作.",
+      "target": "栈",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "广度优先搜多",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "脑筋急转弯",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "几何",
+      "value": 0.019
+    },
+    {
+      "source": "数字操作.",
+      "target": "数字",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "树",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "并查集",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "递归",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "分治",
+      "value": 0.004
+    },
+    {
+      "source": "数字操作.",
+      "target": "图",
+      "value": 0.004
+    },
+    {
+      "source": "数组算法.",
+      "target": "哈希",
+      "value": 0.083
+    },
+    {
+      "source": "数组算法.",
+      "target": "排序",
+      "value": 0.135
+    },
+    {
+      "source": "数组算法.",
+      "target": "快排",
+      "value": 0.01
+    },
+    {
+      "source": "数组算法.",
+      "target": "双指针",
+      "value": 0.031
+    },
+    {
+      "source": "数组算法.",
+      "target": "枚举",
+      "value": 0.016
+    },
+    {
+      "source": "数组算法.",
+      "target": "桶排",
+      "value": 0.01
+    },
+    {
+      "source": "数组算法.",
+      "target": "众数",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "回溯算法",
+      "value": 0.01
+    },
+    {
+      "source": "数组算法.",
+      "target": "深度优先搜索",
+      "value": 0.016
+    },
+    {
+      "source": "数组算法.",
+      "target": "位运算",
+      "value": 0.021
+    },
+    {
+      "source": "数组算法.",
+      "target": "分治算法",
+      "value": 0.036
+    },
+    {
+      "source": "数组算法.",
+      "target": "数组",
+      "value": 0.155
+    },
+    {
+      "source": "数组算法.",
+      "target": "并查集",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "数学",
+      "value": 0.124
+    },
+    {
+      "source": "数组算法.",
+      "target": "堆排",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "二分查找",
+      "value": 0.041
+    },
+    {
+      "source": "数组算法.",
+      "target": "动态规划",
+      "value": 0.052
+    },
+    {
+      "source": "数组算法.",
+      "target": "暴力",
+      "value": 0.01
+    },
+    {
+      "source": "数组算法.",
+      "target": "贪心算法",
+      "value": 0.031
+    },
+    {
+      "source": "数组算法.",
+      "target": "特殊问题",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "栈",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "模拟",
+      "value": 0.026
+    },
+    {
+      "source": "数组算法.",
+      "target": "概率论",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "二分搜索",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "搜索",
+      "value": 0.026
+    },
+    {
+      "source": "数组算法.",
+      "target": "排列组合",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "树状数组",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "模式匹配",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "字符串",
+      "value": 0.021
+    },
+    {
+      "source": "数组算法.",
+      "target": "递归",
+      "value": 0.01
+    },
+    {
+      "source": "数组算法.",
+      "target": "bit magic",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "搜素",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "堆",
+      "value": 0.01
+    },
+    {
+      "source": "数组算法.",
+      "target": "哈希表",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "广度优先搜索",
+      "value": 0.01
+    },
+    {
+      "source": "数组算法.",
+      "target": "斐波那契",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "二进制",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "贪心",
+      "value": 0.026
+    },
+    {
+      "source": "数组算法.",
+      "target": "构造算法",
+      "value": 0.005
+    },
+    {
+      "source": "数组算法.",
+      "target": "分块",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "位运算",
+      "value": 0.022
+    },
+    {
+      "source": "线性表.",
+      "target": "线性表",
+      "value": 0.081
+    },
+    {
+      "source": "线性表.",
+      "target": "动态规划",
+      "value": 0.108
+    },
+    {
+      "source": "线性表.",
+      "target": "数学",
+      "value": 0.265
+    },
+    {
+      "source": "线性表.",
+      "target": "字典",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "贪心算法",
+      "value": 0.027
+    },
+    {
+      "source": "线性表.",
+      "target": "分治算法",
+      "value": 0.011
+    },
+    {
+      "source": "线性表.",
+      "target": "哈希",
+      "value": 0.07
+    },
+    {
+      "source": "线性表.",
+      "target": "滑窗",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "字符串",
+      "value": 0.092
+    },
+    {
+      "source": "线性表.",
+      "target": "序列",
+      "value": 0.011
+    },
+    {
+      "source": "线性表.",
+      "target": "表达评估",
+      "value": 0.011
+    },
+    {
+      "source": "线性表.",
+      "target": "排序",
+      "value": 0.032
+    },
+    {
+      "source": "线性表.",
+      "target": "bit magic",
+      "value": 0.07
+    },
+    {
+      "source": "线性表.",
+      "target": "二分查找",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "栈",
+      "value": 0.038
+    },
+    {
+      "source": "线性表.",
+      "target": "排列组合",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "模式匹配",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "搜索",
+      "value": 0.016
+    },
+    {
+      "source": "线性表.",
+      "target": "深度优先搜索",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "图",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "子序列",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "链表",
+      "value": 0.011
+    },
+    {
+      "source": "线性表.",
+      "target": "数组",
+      "value": 0.032
+    },
+    {
+      "source": "线性表.",
+      "target": "逻辑",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "几何",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "矩阵",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "递归",
+      "value": 0.022
+    },
+    {
+      "source": "线性表.",
+      "target": "队列",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "遍历",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "猜谜游戏",
+      "value": 0.005
+    },
+    {
+      "source": "线性表.",
+      "target": "二进制",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "主席树",
+      "value": 0.018
+    },
+    {
+      "source": "树结构.",
+      "target": "树状数组",
+      "value": 0.027
+    },
+    {
+      "source": "树结构.",
+      "target": "排序",
+      "value": 0.014
+    },
+    {
+      "source": "树结构.",
+      "target": "动态规划",
+      "value": 0.05
+    },
+    {
+      "source": "树结构.",
+      "target": "可持久化",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "哈希",
+      "value": 0.027
+    },
+    {
+      "source": "树结构.",
+      "target": "字典树",
+      "value": 0.027
+    },
+    {
+      "source": "树结构.",
+      "target": "平衡树",
+      "value": 0.041
+    },
+    {
+      "source": "树结构.",
+      "target": "线段树",
+      "value": 0.126
+    },
+    {
+      "source": "树结构.",
+      "target": "深度优先搜索",
+      "value": 0.05
+    },
+    {
+      "source": "树结构.",
+      "target": "AC自动机",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "树链剖分",
+      "value": 0.014
+    },
+    {
+      "source": "树结构.",
+      "target": "倍增",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "后缀数组",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "模拟",
+      "value": 0.045
+    },
+    {
+      "source": "树结构.",
+      "target": "字符串",
+      "value": 0.023
+    },
+    {
+      "source": "树结构.",
+      "target": "最近公共祖先",
+      "value": 0.018
+    },
+    {
+      "source": "树结构.",
+      "target": "枚举暴力",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "素数判断",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "前缀和",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "图论",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "树形结构",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "?树套树",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "高性能",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "树",
+      "value": 0.077
+    },
+    {
+      "source": "树结构.",
+      "target": "单调队列",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "枚举",
+      "value": 0.027
+    },
+    {
+      "source": "树结构.",
+      "target": "贪心算法",
+      "value": 0.036
+    },
+    {
+      "source": "树结构.",
+      "target": "高级结构",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "生成树",
+      "value": 0.027
+    },
+    {
+      "source": "树结构.",
+      "target": "搜索",
+      "value": 0.041
+    },
+    {
+      "source": "树结构.",
+      "target": "递归",
+      "value": 0.032
+    },
+    {
+      "source": "树结构.",
+      "target": "卡特兰",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "栈",
+      "value": 0.014
+    },
+    {
+      "source": "树结构.",
+      "target": "数组",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "伸展树",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "图",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "并查集",
+      "value": 0.018
+    },
+    {
+      "source": "树结构.",
+      "target": "贪心",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "进制",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "树型动规",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "分块",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "最大流",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "最小割",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "归并排序",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "TRIE树",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "树结构",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "二分答案",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "sap",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "广度优先搜索",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "邻接矩阵",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "数学",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "二分查找",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "快排",
+      "value": 0.009
+    },
+    {
+      "source": "树结构.",
+      "target": "深度优先算法",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "splay",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "概率论",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "统计",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "网络流",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "邻接表",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "差分",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "二叉堆",
+      "value": 0.005
+    },
+    {
+      "source": "树结构.",
+      "target": "优先队列",
+      "value": 0.005
+    },
+    {
+      "source": "图结构.",
+      "target": "广度优先搜索",
+      "value": 0.056
+    },
+    {
+      "source": "图结构.",
+      "target": "动态规划",
+      "value": 0.034
+    },
+    {
+      "source": "图结构.",
+      "target": "深度优先搜索",
+      "value": 0.09
+    },
+    {
+      "source": "图结构.",
+      "target": "并查集",
+      "value": 0.022
+    },
+    {
+      "source": "图结构.",
+      "target": "拓扑排序",
+      "value": 0.034
+    },
+    {
+      "source": "图结构.",
+      "target": "邻接表",
+      "value": 0.022
+    },
+    {
+      "source": "图结构.",
+      "target": "广度优先遍历",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "图",
+      "value": 0.067
+    },
+    {
+      "source": "图结构.",
+      "target": "最大匹配",
+      "value": 0.034
+    },
+    {
+      "source": "图结构.",
+      "target": "二分图",
+      "value": 0.034
+    },
+    {
+      "source": "图结构.",
+      "target": "高性能",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "树",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "生成树",
+      "value": 0.022
+    },
+    {
+      "source": "图结构.",
+      "target": "容斥",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "贪心",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "强连通分量",
+      "value": 0.067
+    },
+    {
+      "source": "图结构.",
+      "target": "优先队列",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "斜堆",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "线段树",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "树链剖分",
+      "value": 0.022
+    },
+    {
+      "source": "图结构.",
+      "target": "图论",
+      "value": 0.079
+    },
+    {
+      "source": "图结构.",
+      "target": "倍增",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "最近公共祖先",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "栈",
+      "value": 0.022
+    },
+    {
+      "source": "图结构.",
+      "target": "搜索树",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "割点",
+      "value": 0.022
+    },
+    {
+      "source": "图结构.",
+      "target": "搜索",
+      "value": 0.045
+    },
+    {
+      "source": "图结构.",
+      "target": "网络流",
+      "value": 0.022
+    },
+    {
+      "source": "图结构.",
+      "target": "欧拉图",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "滑动数组",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "状态速度",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "动态树",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "记忆化搜索",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "最大流",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "二分答案",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "分数规划",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "模拟",
+      "value": 0.022
+    },
+    {
+      "source": "图结构.",
+      "target": "2-sat",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "矩阵乘法",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "暴力",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "二分匹配",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "前缀和",
+      "value": 0.011
+    },
+    {
+      "source": "图结构.",
+      "target": "平面图",
+      "value": 0.011
+    },
+    {
+      "source": "字符串.",
+      "target": "动态规划",
+      "value": 0.075
+    },
+    {
+      "source": "字符串.",
+      "target": "二分查找",
+      "value": 0.019
+    },
+    {
+      "source": "字符串.",
+      "target": "排序",
+      "value": 0.057
+    },
+    {
+      "source": "字符串.",
+      "target": "字符串",
+      "value": 0.311
+    },
+    {
+      "source": "字符串.",
+      "target": "数学",
+      "value": 0.028
+    },
+    {
+      "source": "字符串.",
+      "target": "几何",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "双指针",
+      "value": 0.019
+    },
+    {
+      "source": "字符串.",
+      "target": "线段树",
+      "value": 0.019
+    },
+    {
+      "source": "字符串.",
+      "target": "主席树",
+      "value": 0.019
+    },
+    {
+      "source": "字符串.",
+      "target": "后缀数组",
+      "value": 0.038
+    },
+    {
+      "source": "字符串.",
+      "target": "堆",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "哈希表",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "线性结构",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "栈",
+      "value": 0.019
+    },
+    {
+      "source": "字符串.",
+      "target": "哈希",
+      "value": 0.047
+    },
+    {
+      "source": "字符串.",
+      "target": "模拟",
+      "value": 0.047
+    },
+    {
+      "source": "字符串.",
+      "target": "枚举",
+      "value": 0.038
+    },
+    {
+      "source": "字符串.",
+      "target": "快速傅里叶变换",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "贪心算法",
+      "value": 0.019
+    },
+    {
+      "source": "字符串.",
+      "target": "队列",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "排列",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "递归",
+      "value": 0.028
+    },
+    {
+      "source": "字符串.",
+      "target": "位运算",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "树状数组",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "深度优先搜索",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "分治算法",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "搜索",
+      "value": 0.019
+    },
+    {
+      "source": "字符串.",
+      "target": "简单排序",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "AC自动机",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "点分治",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "字符处理",
+      "value": 0.028
+    },
+    {
+      "source": "字符串.",
+      "target": "数组",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "正则表达式",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "矩阵快速幂优化",
+      "value": 0.009
+    },
+    {
+      "source": "字符串.",
+      "target": "O2优化",
+      "value": 0.009
+    },
+    {
+      "source": "排序算法.",
+      "target": "分治算法",
+      "value": 0.077
+    },
+    {
+      "source": "排序算法.",
+      "target": "排序",
+      "value": 0.154
+    },
+    {
+      "source": "排序算法.",
+      "target": "深度优先搜索",
+      "value": 0.038
+    },
+    {
+      "source": "排序算法.",
+      "target": "数组",
+      "value": 0.115
+    },
+    {
+      "source": "排序算法.",
+      "target": "栈",
+      "value": 0.019
+    },
+    {
+      "source": "排序算法.",
+      "target": "二分查找",
+      "value": 0.058
+    },
+    {
+      "source": "排序算法.",
+      "target": "并查集",
+      "value": 0.019
+    },
+    {
+      "source": "排序算法.",
+      "target": "贪心算法",
+      "value": 0.038
+    },
+    {
+      "source": "排序算法.",
+      "target": "哈希表",
+      "value": 0.038
+    },
+    {
+      "source": "排序算法.",
+      "target": "队列",
+      "value": 0.019
+    },
+    {
+      "source": "排序算法.",
+      "target": "线性表",
+      "value": 0.038
+    },
+    {
+      "source": "排序算法.",
+      "target": "归并排序",
+      "value": 0.019
+    },
+    {
+      "source": "排序算法.",
+      "target": "插入排序",
+      "value": 0.019
+    },
+    {
+      "source": "排序算法.",
+      "target": "树堆",
+      "value": 0.019
+    },
+    {
+      "source": "排序算法.",
+      "target": "伸展树",
+      "value": 0.019
+    },
+    {
+      "source": "排序算法.",
+      "target": "模拟",
+      "value": 0.019
+    },
+    {
+      "source": "排序算法.",
+      "target": "双指针",
+      "value": 0.058
+    },
+    {
+      "source": "排序算法.",
+      "target": "堆",
+      "value": 0.038
+    },
+    {
+      "source": "排序算法.",
+      "target": "树状数组",
+      "value": 0.038
+    },
+    {
+      "source": "排序算法.",
+      "target": "线段树",
+      "value": 0.038
+    },
+    {
+      "source": "排序算法.",
+      "target": "字符串",
+      "value": 0.019
+    },
+    {
+      "source": "排序算法.",
+      "target": "哈希",
+      "value": 0.038
+    },
+    {
+      "source": "排序算法.",
+      "target": "堆排",
+      "value": 0.019
+    },
+    {
+      "source": "排序算法.",
+      "target": "数学",
+      "value": 0.038
+    }
+  ]
+}
