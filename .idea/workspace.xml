@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf49da59-510f-4ee7-a988-b77b2cc82ad0" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/可视化/difficulty_bar_graph/diff_type_diff_bar.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/可视化/radar/3544_radar_chart.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/可视化/radar/capability_list.json" afterDir="false" />
@@ -22,6 +23,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tag/tags.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/tag/tags.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tag/type_tags_count.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/tag/type_tags_count.json" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 07c09afcd1d9942c2518fe11b492e27f839e4b85
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/可视化/tag_wordcloud" />
@@ -123,11 +128,17 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="JavaScript Debug.bar_toolbox.html" />
         <item itemvalue="Python.111" />
         <item itemvalue="Python.new_diff_bar" />
         <item itemvalue="JavaScript Debug.diff_type_diff_bar.html" />
         <item itemvalue="JavaScript Debug.tag_wordcloud_diamond.html" />
+=======
+        <item itemvalue="Python.analyse_programming_style" />
+        <item itemvalue="Python.get_programming_style_data" />
+        <item itemvalue="Python.collect_problem_data&amp;rank" />
+>>>>>>> 07c09afcd1d9942c2518fe11b492e27f839e4b85
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +226,15 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="402" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1594976642506" />
+<<<<<<< HEAD
     <state x="0" y="23" width="705" height="718" key="dock-window-1" timestamp="1595207210899">
+=======
+    <state x="363" y="215" key="com.intellij.ide.util.TipDialog" timestamp="1595169843601">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="215" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1595169843601" />
+    <state x="-3" y="23" width="666" height="668" key="dock-window-1" timestamp="1595064056727">
+>>>>>>> 07c09afcd1d9942c2518fe11b492e27f839e4b85
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="23" width="705" height="718" key="dock-window-1/0.23.1440.877@0.23.1440.877" timestamp="1595207210899" />
@@ -232,6 +251,7 @@
     </state>
     <state x="296" y="187" width="837" height="550" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1595145953610" />
   </component>
+<<<<<<< HEAD
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Science$analyse_programming_style.coverage" NAME="analyse_programming_style Coverage Results" MODIFIED="1595152310917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/代码风格评估" />
     <SUITE FILE_PATH="coverage/Data_Science$new_diff_bar.coverage" NAME="new_diff_bar Coverage Results" MODIFIED="1595239912399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/可视化/difficulty_bar_graph" />
@@ -249,5 +269,17 @@
     <SUITE FILE_PATH="coverage/Data_Science$score_analysis.coverage" NAME="score_analysis Coverage Results" MODIFIED="1590668596464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/题目难度(原始版)" />
     <SUITE FILE_PATH="coverage/Data_Science$collect_problem_data_rank.coverage" NAME="collect_problem_data&amp;rank的副本 Coverage Results" MODIFIED="1594977148405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/复杂度" />
     <SUITE FILE_PATH="coverage/Data_Science$tag_wordcloud.coverage" NAME="tag_wordcloud Coverage Results" MODIFIED="1595219951496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/可视化/tag_wordcloud" />
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/学生能力评价/capability.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+>>>>>>> 07c09afcd1d9942c2518fe11b492e27f839e4b85
   </component>
 </project>
