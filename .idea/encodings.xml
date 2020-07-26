@@ -3,7 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/handled_data.json" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/tag/type_tags_count.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/代码特征画像/user_time_data.json" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/代码风格评估/difficulty_origin_data.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/可视化/page/user_time_data.json" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/可视化/tag_sankey_level/type_tags_count.json" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/复杂度/collect_problem_data&amp;rank.py" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/复杂度/problem_data.json" charset="GBK" />

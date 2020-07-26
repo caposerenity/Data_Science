@@ -15,7 +15,7 @@ def timestamp_to_str(timestamp):
     return dt
 
 
-f = open('handled_data.json', encoding='utf-8')
+f = open('handled_data.json', encoding='gbk')
 res = f.read()
 data = json.loads(res)
 data = list(dict.values(data))

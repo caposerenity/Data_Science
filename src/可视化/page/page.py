@@ -14,20 +14,29 @@ fp = open('calendar_heat_map.json', encoding='utf-8')
 res = fp.read()
 data_ = json.loads(res)
 
-# def title()->Image:
-#     image = Image()
-#
-#     # img_src = (
-#     #     "/Users/amanda/Data_Science/src/可视化/title.png"
-#     # )
-#     # image.add(
-#     #     src=img_src,
-#     #     style_opts={"width": "200px", "height": "200px", "style": "margin-top: 20px"},
-#     # )
-#     image.set_global_opts(
-#         title_opts=ComponentTitleOpts(title="PYTHON 用户数据分析")
-#     )
-#     return image
+fpp = open('user_time_data.json', encoding='utf-8')
+res2 = fpp.read()
+data_fea = json.loads(res2)
+
+
+def title(fea_data)->Image:
+    image = Image()
+    sub_data=""
+    for i in fea_data:
+        sub_data=sub_data+i+"\n"
+
+
+    # img_src = (
+    #     "/Users/amanda/Data_Science/src/可视化/title.png"
+    # )
+    # image.add(
+    #     src=img_src,
+    #     style_opts={"width": "200px", "height": "200px", "style": "margin-top: 20px"},
+    # )
+    image.set_global_opts(
+        title_opts=ComponentTitleOpts(title="PYTHON 用户数据分析",subtitle=sub_data)
+    )
+    return image
 
 def calendar_heat_map(data,k)->Calendar:
     calendar = (
@@ -53,11 +62,12 @@ def calendar_heat_map(data,k)->Calendar:
 
 
 
-def page_simple_layout(heat_data,user_id):
-    page = Page(layout=Page.SimplePageLayout)
+def page_simple_layout(heat_data,user_id,fea_data):
+    page = Page(layout=Page.DraggablePageLayout)
     page.add(
-        #title(),
+
         calendar_heat_map(heat_data,user_id),
+        title(fea_data),
         # bar_datazoom_slider(),
         # line_markpoint(),
 
@@ -68,6 +78,7 @@ def page_simple_layout(heat_data,user_id):
     page.render("user_page"+user_id+".html")
 
 
+
 if __name__ == "__main__":
     begin = datetime.date(2020, 2, 1)
     end = datetime.date(2020, 3, 31)
@@ -75,11 +86,14 @@ if __name__ == "__main__":
     for k in data_.keys():
         times = []
         data = []
+
         for v in data_[k].values():
             times.append(v)
 
         for i in range((end - begin).days + 1):
             data.append([str(begin + datetime.timedelta(days=i)), times[i]])
 
-        page_simple_layout(data, k)
+
+        page_simple_layout(data, k,data_fea[k]["feature_description"])
+
 

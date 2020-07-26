@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
 
-    
+            <link rel="stylesheet"  href="https://assets.pyecharts.org/assets/jquery-ui.css">
+
 </head>
 <body>
-    <style>.box { justify-content:center; display:flex; flex-wrap:wrap;  }; </style>
+    <style>.box {  }; </style>
+        <button onclick="downloadCfg()">Save Config</button>
     <div class="box">
-                        <div id="bba5b468980c43d2971a782d6c09ae2e" class="chart-container" style="">
-            <p class="title" style="font-size: 18px; font-weight:bold;" > PYTHON 用户数据分析</p>
-            <p class="subtitle" style="font-size: 12px;" > </p>
-            <img />
-        </div>
-
-<br/>                <div id="2afd945c7c354345a662a9b98dec9e43" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="07cad34a0fc3451986b364e45da2119b" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_2afd945c7c354345a662a9b98dec9e43 = echarts.init(
-            document.getElementById('2afd945c7c354345a662a9b98dec9e43'), 'white', {renderer: 'canvas'});
-        var option_2afd945c7c354345a662a9b98dec9e43 = {
+        var chart_07cad34a0fc3451986b364e45da2119b = echarts.init(
+            document.getElementById('07cad34a0fc3451986b364e45da2119b'), 'white', {renderer: 'canvas'});
+        var option_07cad34a0fc3451986b364e45da2119b = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -413,188 +412,43 @@
         ]
     }
 };
-        chart_2afd945c7c354345a662a9b98dec9e43.setOption(option_2afd945c7c354345a662a9b98dec9e43);
+        chart_07cad34a0fc3451986b364e45da2119b.setOption(option_07cad34a0fc3451986b364e45da2119b);
     </script>
-<br/>                <div id="a91ddefb24c24069a443f92bce626038" class="chart-container" style="width:900px; height:500px;"></div>
-    <script>
-        var chart_a91ddefb24c24069a443f92bce626038 = echarts.init(
-            document.getElementById('a91ddefb24c24069a443f92bce626038'), 'white', {renderer: 'canvas'});
-        var option_a91ddefb24c24069a443f92bce626038 = {
-    "animation": true,
-    "animationThreshold": 2000,
-    "animationDuration": 1000,
-    "animationEasing": "cubicOut",
-    "animationDelay": 0,
-    "animationDurationUpdate": 300,
-    "animationEasingUpdate": "cubicOut",
-    "animationDelayUpdate": 0,
-    "color": [
-        "#c23531",
-        "#2f4554",
-        "#61a0a8",
-        "#d48265",
-        "#749f83",
-        "#ca8622",
-        "#bda29a",
-        "#6e7074",
-        "#546570",
-        "#c4ccd3",
-        "#f05b72",
-        "#ef5b9c",
-        "#f47920",
-        "#905a3d",
-        "#fab27b",
-        "#2a5caa",
-        "#444693",
-        "#726930",
-        "#b2d235",
-        "#6d8346",
-        "#ac6767",
-        "#1d953f",
-        "#6950a1",
-        "#918597"
-    ],
-    "series": [
-        {
-            "type": "pie",
-            "clockwise": true,
-            "data": [
-                {
-                    "name": "\u5468\u4e00",
-                    "value": 137
-                },
-                {
-                    "name": "\u5468\u4e8c",
-                    "value": 65
-                },
-                {
-                    "name": "\u5468\u4e09",
-                    "value": 47
-                },
-                {
-                    "name": "\u5468\u56db",
-                    "value": 103
-                },
-                {
-                    "name": "\u5468\u4e94",
-                    "value": 64
-                },
-                {
-                    "name": "\u5468\u516d",
-                    "value": 122
-                },
-                {
-                    "name": "\u5468\u65e5",
-                    "value": 105
-                }
-            ],
-            "radius": [
-                "30%",
-                "75%"
-            ],
-            "center": [
-                "25%",
-                "50%"
-            ],
-            "roseType": "radius",
-            "label": {
-                "show": false,
-                "position": "top",
-                "margin": 8
-            }
-        },
-        {
-            "type": "pie",
-            "clockwise": true,
-            "data": [
-                {
-                    "name": "\u5468\u4e00",
-                    "value": 51
-                },
-                {
-                    "name": "\u5468\u4e8c",
-                    "value": 148
-                },
-                {
-                    "name": "\u5468\u4e09",
-                    "value": 61
-                },
-                {
-                    "name": "\u5468\u56db",
-                    "value": 21
-                },
-                {
-                    "name": "\u5468\u4e94",
-                    "value": 40
-                },
-                {
-                    "name": "\u5468\u516d",
-                    "value": 49
-                },
-                {
-                    "name": "\u5468\u65e5",
-                    "value": 36
-                }
-            ],
-            "radius": [
-                "30%",
-                "75%"
-            ],
-            "center": [
-                "75%",
-                "50%"
-            ],
-            "roseType": "area",
-            "label": {
-                "show": true,
-                "position": "top",
-                "margin": 8
-            }
-        }
-    ],
-    "legend": [
-        {
-            "data": [
-                "\u5468\u4e00",
-                "\u5468\u4e8c",
-                "\u5468\u4e09",
-                "\u5468\u56db",
-                "\u5468\u4e94",
-                "\u5468\u516d",
-                "\u5468\u65e5"
-            ],
-            "selected": {},
-            "show": true,
-            "padding": 5,
-            "itemGap": 10,
-            "itemWidth": 25,
-            "itemHeight": 14
-        }
-    ],
-    "tooltip": {
-        "show": true,
-        "trigger": "item",
-        "triggerOn": "mousemove|click",
-        "axisPointer": {
-            "type": "line"
-        },
-        "textStyle": {
-            "fontSize": 14
-        },
-        "borderWidth": 0
-    },
-    "title": [
-        {
-            "text": "Pie-\u73ab\u7470\u56fe\u793a\u4f8b",
-            "padding": 5,
-            "itemGap": 10
-        }
-    ]
-};
-        chart_a91ddefb24c24069a443f92bce626038.setOption(option_a91ddefb24c24069a443f92bce626038);
-    </script>
+<br/>                        <div id="f5abbd5597e74828a0d83e1c62f716e1" class="chart-container" style="">
+            <p class="title" style="font-size: 18px; font-weight:bold;" > PYTHON 用户数据分析</p>
+            <p class="subtitle" style="font-size: 12px;" > 您有10.0%的题目使用面向用例方法<br/>您在排序算法题型中最喜欢面向用例,其中18.18%使用了面向用例<br/>使用面向用例的能力超过31.72%的同学:)<br/>你在字符串题型中平均提交次数最多, 平均提交了3次<br/>您喜欢早早将代码写完<br/>03-10你完成了所有作业<br/>你最喜欢在凌晨写题目<br/>2月19日的5点你还在肝代码，小心头发<br/>你有92.5%的题目在一天内完成<br/>你遇到了2题较难的题, 有100.0%的题目你一天把它解决掉, 0.0%的题目是慢慢击破<br/></p>
+            <img />
+        </div>
+
 <br/>    </div>
     <script>
+            $('#07cad34a0fc3451986b364e45da2119b').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#07cad34a0fc3451986b364e45da2119b>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#07cad34a0fc3451986b364e45da2119b'), function() { chart_07cad34a0fc3451986b364e45da2119b.resize()});
+            $('#f5abbd5597e74828a0d83e1c62f716e1').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#f5abbd5597e74828a0d83e1c62f716e1>div:nth-child(1)").width("100%").height("100%");
+            var charts_id = ['07cad34a0fc3451986b364e45da2119b','f5abbd5597e74828a0d83e1c62f716e1'];
+function downloadCfg () {
+    const fileName = 'chart_config.json'
+    let downLink = document.createElement('a')
+    downLink.download = fileName
+
+    let result = []
+    for(let i=0; i<charts_id.length; i++) {
+        chart = $('#'+charts_id[i])
+        result.push({
+            cid: charts_id[i],
+            width: chart.css("width"),
+            height: chart.css("height"),
+            top: chart.offset().top + "px",
+            left: chart.offset().left + "px"
+        })
+    }
+
+    let blob = new Blob([JSON.stringify(result)])
+    downLink.href = URL.createObjectURL(blob)
+    document.body.appendChild(downLink)
+    downLink.click()
+    document.body.removeChild(downLink)
+}
     </script>
 </body>
 </html>
