@@ -1,5 +1,5 @@
 from pyecharts import options as opts
-from pyecharts.charts import Bar, Grid, Line, Liquid, Page, Pie
+from pyecharts.charts import Bar, Grid, Line, Liquid, Page, Pie, Radar
 from pyecharts.commons.utils import JsCode
 from pyecharts.components import Table
 from pyecharts.faker import Faker
@@ -25,6 +25,10 @@ data_rank = json.loads(res3)
 f4 = open('programming_style_data.json', encoding='utf-8')
 res4 = f4.read()
 data_style = json.loads(res4)
+
+f5 = open('capability_list.json', encoding='gbk')
+res5 = f5.read()
+data_radar = json.loads(res5)
 
 
 def title(fea_data, style_data) -> Image:
@@ -139,7 +143,44 @@ def rank_liquid(data) -> Liquid:
     return grid
 
 
-def page_simple_layout(heat_data, user_id, fea_data, rank_data, style_data):
+def user_ability_radar(v1, v2) -> Radar:
+    radar = (
+        Radar(init_opts=opts.InitOpts())
+            .add_schema(
+            schema=[
+                opts.RadarIndicatorItem(name="字符串", max_=100),
+                opts.RadarIndicatorItem(name="线性表", max_=100),
+                opts.RadarIndicatorItem(name="数组", max_=100),
+                opts.RadarIndicatorItem(name="查找算法", max_=100),
+                opts.RadarIndicatorItem(name="排序算法", max_=100),
+                opts.RadarIndicatorItem(name="数字操作", max_=100),
+                opts.RadarIndicatorItem(name="树结构", max_=100),
+                opts.RadarIndicatorItem(name="图结构", max_=100),
+            ],
+            splitarea_opt=opts.SplitAreaOpts(
+                is_show=True, areastyle_opts=opts.AreaStyleOpts(opacity=1)
+            ),
+            textstyle_opts=opts.TextStyleOpts(color="#000"),
+        )
+            .add(
+            series_name="学生能力评估",
+            data=v1,
+            linestyle_opts=opts.LineStyleOpts(color="#CD0000", width=3, opacity=0.7),
+        )
+            .add(
+            series_name="学生平均得分",
+            data=v2,
+            linestyle_opts=opts.LineStyleOpts(color="#5CACEE", width=3, opacity=0.7),
+        )
+            .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
+            .set_global_opts(
+            title_opts=opts.TitleOpts(), legend_opts=opts.LegendOpts()
+        )
+    )
+    return radar
+
+
+def page_simple_layout(heat_data, user_id, fea_data, rank_data, style_data, v1, v2):
     page = Page(layout=Page.DraggablePageLayout)
     page.add(
         calendar_heat_map(heat_data, user_id),
@@ -152,6 +193,7 @@ def page_simple_layout(heat_data, user_id, fea_data, rank_data, style_data):
     )
     if rank_data != "no_rank_data":
         page.add(rank_liquid(rank_data))
+    page.add(user_ability_radar(v1,v2))
     page.add(title(fea_data, style_data), )
 
     page.render("user_page" + user_id + ".html")
@@ -176,7 +218,19 @@ if __name__ == "__main__":
         for i in range((end - begin).days + 1):
             data.append([str(begin + datetime.timedelta(days=i)), times[i]])
 
+        # 雷达图
+        v1 = [data_radar[k]["capability"]]
+        v2 = [data_radar[k]["score"]]
+        for i in range(8):
+            for j in range(8):
+                v1[0][j] = round(v1[0][j], 2)
+        for i in range(8):
+            for j in range(8):
+                v2[0][j] = round(v2[0][j], 2)
+
         if k in user_liquid:
-            page_simple_layout(data, k, data_fea[k]["feature_description"], data_rank[k], data_style[k]["styles"])
+            page_simple_layout(data, k, data_fea[k]["feature_description"], data_rank[k], data_style[k]["styles"], v1,
+                               v2)
         else:
-            page_simple_layout(data, k, data_fea[k]["feature_description"], "no_rank_data", data_style[k]["styles"])
+            page_simple_layout(data, k, data_fea[k]["feature_description"], "no_rank_data", data_style[k]["styles"], v1,
+                               v2)
