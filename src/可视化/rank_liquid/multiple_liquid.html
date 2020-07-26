@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-liquidfill.min.js"></script>
+
+</head>
+<body>
+    <div id="代码行数" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_代码行数 = echarts.init(
+            document.getElementById('代码行数'), 'white', {renderer: 'canvas'});
+        var option_代码行数 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "liquidFill",
+            "name": "line_rank",
+            "data": [
+                0.3331
+            ],
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#294D99",
+                "#156ACF",
+                "#1598ED",
+                "#45BDFF"
+            ],
+            "shape": "circle",
+            "outline": {
+                "show": true
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 50,
+                "formatter": function (param) {                                 return (Math.floor(param.value * 10000) / 100) + '%';                             }
+            },
+            "center": [
+                "15%",
+                "50%"
+            ],
+            "xAxisIndex": 0,
+            "yAxisIndex": 0
+        },
+        {
+            "type": "liquidFill",
+            "name": "note_rank",
+            "data": [
+                0.1128
+            ],
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#294D99",
+                "#156ACF",
+                "#1598ED",
+                "#45BDFF"
+            ],
+            "shape": "circle",
+            "outline": {
+                "show": true
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 50,
+                "formatter": function (param) {                        return (Math.floor(param.value * 10000) / 100) + '%';                    }
+            },
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "xAxisIndex": 1,
+            "yAxisIndex": 1
+        },
+        {
+            "type": "liquidFill",
+            "name": "time_rank",
+            "data": [
+                0.6486
+            ],
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#294D99",
+                "#156ACF",
+                "#1598ED",
+                "#45BDFF"
+            ],
+            "shape": "circle",
+            "outline": {
+                "show": true
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 50,
+                "formatter": function (param) {                        return (Math.floor(param.value * 10000) / 100) + '%';                    }
+            },
+            "center": [
+                "85%",
+                "50%"
+            ],
+            "xAxisIndex": 2,
+            "yAxisIndex": 2
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        },
+        {
+            "data": [],
+            "selected": {}
+        },
+        {
+            "data": [],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "60632\u7684\u4ee3\u7801\u884c\u6570\u3001\u6ce8\u91ca\u884c\u6570\u3001\u65f6\u95f4\u590d\u6742\u5ea6\u6392\u540d\u663e\u793a",
+            "top": 60,
+            "padding": 5,
+            "itemGap": 10
+        },
+        {
+            "padding": 5,
+            "itemGap": 10
+        },
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "grid": [
+        {
+            "containLabel": false
+        },
+        {
+            "containLabel": false
+        },
+        {
+            "containLabel": false
+        }
+    ]
+};
+        chart_代码行数.setOption(option_代码行数);
+    </script>
+</body>
+</html>
