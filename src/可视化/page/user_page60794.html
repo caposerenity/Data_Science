@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-liquidfill.min.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
@@ -15,11 +16,11 @@
     <style>.box {  }; </style>
         <button onclick="downloadCfg()">Save Config</button>
     <div class="box">
-                <div id="b0281b5566d649aeba176ec936e51e72" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="8b34b335f780462ead7fe729cca7e3fb" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_b0281b5566d649aeba176ec936e51e72 = echarts.init(
-            document.getElementById('b0281b5566d649aeba176ec936e51e72'), 'white', {renderer: 'canvas'});
-        var option_b0281b5566d649aeba176ec936e51e72 = {
+        var chart_8b34b335f780462ead7fe729cca7e3fb = echarts.init(
+            document.getElementById('8b34b335f780462ead7fe729cca7e3fb'), 'white', {renderer: 'canvas'});
+        var option_8b34b335f780462ead7fe729cca7e3fb = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -412,20 +413,223 @@
         ]
     }
 };
-        chart_b0281b5566d649aeba176ec936e51e72.setOption(option_b0281b5566d649aeba176ec936e51e72);
+        chart_8b34b335f780462ead7fe729cca7e3fb.setOption(option_8b34b335f780462ead7fe729cca7e3fb);
     </script>
-<br/>                        <div id="dd523101643342eab42a38b090d18db4" class="chart-container" style="">
+<br/>                <div id="代码行数" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_代码行数 = echarts.init(
+            document.getElementById('代码行数'), 'white', {renderer: 'canvas'});
+        var option_代码行数 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "liquidFill",
+            "name": "line_rank",
+            "data": [
+                0.5022
+            ],
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#294D99",
+                "#156ACF",
+                "#1598ED",
+                "#45BDFF"
+            ],
+            "shape": "circle",
+            "outline": {
+                "show": true
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 50,
+                "formatter": function (param) {                                 return (Math.floor(param.value * 10000) / 100) + '%';                             }
+            },
+            "center": [
+                "15%",
+                "50%"
+            ],
+            "xAxisIndex": 0,
+            "yAxisIndex": 0
+        },
+        {
+            "type": "liquidFill",
+            "name": "note_rank",
+            "data": [
+                0.138
+            ],
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#294D99",
+                "#156ACF",
+                "#1598ED",
+                "#45BDFF"
+            ],
+            "shape": "circle",
+            "outline": {
+                "show": true
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 50,
+                "formatter": function (param) {                        return (Math.floor(param.value * 10000) / 100) + '%';                    }
+            },
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "xAxisIndex": 1,
+            "yAxisIndex": 1
+        },
+        {
+            "type": "liquidFill",
+            "name": "time_rank",
+            "data": [
+                0.8301999999999999
+            ],
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#294D99",
+                "#156ACF",
+                "#1598ED",
+                "#45BDFF"
+            ],
+            "shape": "circle",
+            "outline": {
+                "show": true
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 50,
+                "formatter": function (param) {                        return (Math.floor(param.value * 10000) / 100) + '%';                    }
+            },
+            "center": [
+                "85%",
+                "50%"
+            ],
+            "xAxisIndex": 2,
+            "yAxisIndex": 2
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        },
+        {
+            "data": [],
+            "selected": {}
+        },
+        {
+            "data": [],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "user_id:60794\u7684\u4ee3\u7801\u884c\u6570\u3001\u6ce8\u91ca\u884c\u6570\u3001\u65f6\u95f4\u590d\u6742\u5ea6\u6392\u540d\u663e\u793a",
+            "top": 60,
+            "padding": 5,
+            "itemGap": 10
+        },
+        {
+            "padding": 5,
+            "itemGap": 10
+        },
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "grid": [
+        {
+            "containLabel": false
+        },
+        {
+            "containLabel": false
+        },
+        {
+            "containLabel": false
+        }
+    ]
+};
+        chart_代码行数.setOption(option_代码行数);
+    </script>
+<br/>                        <div id="9658e40601554bbbb195f1bfd05e77ab" class="chart-container" style="">
             <p class="title" style="font-size: 18px; font-weight:bold;" > PYTHON 用户数据分析</p>
-            <p class="subtitle" style="font-size: 12px;" > 您有6.96%的题目使用面向用例方法<br/>您在线性表题型中最喜欢面向用例,其中11.11%使用了面向用例<br/>使用面向用例的能力超过21.27%的同学:)<br/>你在图结构题型中平均提交次数最多, 平均提交了2次<br/>您喜欢平均分配每天的代码量<br/>03-31你完成了所有作业<br/>你最喜欢在晚上写题目<br/>3月27日的2点你还在肝代码，小心头发<br/>你有100.0%的题目在一天内完成<br/>你遇到了6题较难的题, 有100.0%的题目你一天把它解决掉, 0.0%的题目是慢慢击破<br/></p>
+            <p class="subtitle" style="font-size: 12px;" > 关于面向用例：<br/>您有6.96%的题目使用面向用例方法<br/>您在线性表题型中最喜欢面向用例,其中11.11%使用了面向用例<br/>使用面向用例的能力超过21.27%的同学:)<br/><br/>关于提交次数：<br/>你在图结构题型中平均提交次数最多, 平均提交了2次<br/><br/>关于时间偏好：<br/>您喜欢平均分配每天的代码量<br/>03-31你完成了所有作业<br/>你最喜欢在晚上写题目<br/>3月27日的2点你还在肝代码，小心头发<br/>你有100.0%的题目在一天内完成<br/><br/>面对难题：<br/>你遇到了6题较难的题, 有100.0%的题目你一天把它解决掉, 0.0%的题目是慢慢击破<br/><br/><br/>代码风格评估：<br/>你的代码28.0%比较精简，26.0%比较冗长代码的时间复杂度0.0%较小，89.0%较大还需要加强对python的掌握程度<br/>你98.0%的题目中都有非英文命名，要养成良好的命名方式啊<br/>你注释的意识超过15.13%的同学赶紧培养起注释的习惯吧<br/></p>
             <img />
         </div>
 
 <br/>    </div>
     <script>
-            $('#b0281b5566d649aeba176ec936e51e72').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#b0281b5566d649aeba176ec936e51e72>div:nth-child(1)").width("100%").height("100%");
-            new ResizeSensor(jQuery('#b0281b5566d649aeba176ec936e51e72'), function() { chart_b0281b5566d649aeba176ec936e51e72.resize()});
-            $('#dd523101643342eab42a38b090d18db4').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#dd523101643342eab42a38b090d18db4>div:nth-child(1)").width("100%").height("100%");
-            var charts_id = ['b0281b5566d649aeba176ec936e51e72','dd523101643342eab42a38b090d18db4'];
+            $('#8b34b335f780462ead7fe729cca7e3fb').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#8b34b335f780462ead7fe729cca7e3fb>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#8b34b335f780462ead7fe729cca7e3fb'), function() { chart_8b34b335f780462ead7fe729cca7e3fb.resize()});
+            $('#代码行数').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#代码行数>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#代码行数'), function() { chart_代码行数.resize()});
+            $('#9658e40601554bbbb195f1bfd05e77ab').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#9658e40601554bbbb195f1bfd05e77ab>div:nth-child(1)").width("100%").height("100%");
+            var charts_id = ['8b34b335f780462ead7fe729cca7e3fb','代码行数','9658e40601554bbbb195f1bfd05e77ab'];
 function downloadCfg () {
     const fileName = 'chart_config.json'
     let downLink = document.createElement('a')
