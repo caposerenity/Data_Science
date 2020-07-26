@@ -1,14 +1,13 @@
-from pyecharts import options as opts
-from pyecharts.charts import Bar, Grid, Line, Liquid, Page, Pie, Radar
+from pyecharts.charts import Bar, Grid, Line, Liquid, Page, Radar
 from pyecharts.commons.utils import JsCode
-from pyecharts.components import Table
-from pyecharts.faker import Faker
 from pyecharts.components import Image
 from pyecharts.options import ComponentTitleOpts
 import json
 import datetime
 from pyecharts import options as opts
 from pyecharts.charts import Calendar
+
+# 生成个人编程特征画像
 
 fp = open('calendar_heat_map.json', encoding='utf-8')
 res = fp.read()
@@ -163,15 +162,16 @@ def user_ability_radar(v1, v2) -> Radar:
             textstyle_opts=opts.TextStyleOpts(color="#000"),
         )
             .add(
-            series_name="学生能力评估",
-            data=v1,
-            linestyle_opts=opts.LineStyleOpts(color="#CD0000", width=3, opacity=0.7),
-        )
-            .add(
             series_name="学生平均得分",
             data=v2,
             linestyle_opts=opts.LineStyleOpts(color="#5CACEE", width=3, opacity=0.7),
         )
+            .add(
+            series_name="学生能力评估",
+            data=v1,
+            linestyle_opts=opts.LineStyleOpts(color="#CD0000", width=3, opacity=0.7),
+        )
+
             .set_series_opts(label_opts=opts.LabelOpts(is_show=False))
             .set_global_opts(
             title_opts=opts.TitleOpts(), legend_opts=opts.LegendOpts()
@@ -193,7 +193,7 @@ def page_simple_layout(heat_data, user_id, fea_data, rank_data, style_data, v1, 
     )
     if rank_data != "no_rank_data":
         page.add(rank_liquid(rank_data))
-    page.add(user_ability_radar(v1,v2))
+    page.add(user_ability_radar(v1, v2))
     page.add(title(fea_data, style_data), )
 
     page.render("user_page" + user_id + ".html")

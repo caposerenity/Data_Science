@@ -1,5 +1,7 @@
 import json
 
+# 处理得到桑葚图要用的数据
+
 f = open('type_tags_count.json', encoding='utf-8')
 res = f.read()
 data = json.loads(res)

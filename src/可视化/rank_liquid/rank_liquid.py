@@ -3,6 +3,9 @@ from pyecharts import options as opts
 from pyecharts.charts import Grid, Liquid
 from pyecharts.commons.utils import JsCode
 
+# 生成用户 代码行数、注释行数、时间复杂度排名 水球图
+# break 跳出循环，若想得到所有用户水球图，注释break
+
 f = open('personal_rank.json', encoding='gbk')
 res = f.read()
 data = json.loads(res)
@@ -62,5 +65,5 @@ for k in data.keys():
 
     grid = Grid().add(l1, grid_opts=opts.GridOpts()).add(l2, grid_opts=opts.GridOpts()).add(l3,
                                                                                             grid_opts=opts.GridOpts())
-    grid.render("multiple_liquid.html")
+    grid.render(k+"rank_liquid.html")
     break

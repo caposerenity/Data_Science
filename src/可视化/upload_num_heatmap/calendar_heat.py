@@ -3,11 +3,12 @@ import datetime
 from pyecharts import options as opts
 from pyecharts.charts import Calendar
 
+#  生成学生提交记录的热点图 user_id.html
+
 fp = open('calendar_heat_map.json', encoding='utf-8')
 res = fp.read()
 data_ = json.loads(res)
 
-#  生成学生提交记录的热点图 user_id.html
 begin = datetime.date(2020, 2, 1)
 end = datetime.date(2020, 3, 31)
 

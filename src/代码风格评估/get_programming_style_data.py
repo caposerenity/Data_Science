@@ -1,5 +1,8 @@
 import json
 
+# 获取分析代码风格要用的数据
+# 数据保存在programming_style_data.json中
+
 f = open('handled_data.json', encoding='gbk')
 res = f.read()
 data = json.loads(res)

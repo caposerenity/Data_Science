@@ -2,6 +2,8 @@ import json
 import pyecharts.options as opts
 from pyecharts.charts import Radar
 
+# 生成用户各类型题目能力雷达图
+
 f = open('capability_list.json', encoding='gbk')
 res = f.read()
 data = json.loads(res)
@@ -50,3 +52,4 @@ for k in data.keys():
         )
             .render(k + "_radar_chart.html")
     )
+

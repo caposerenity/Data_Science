@@ -2,6 +2,8 @@ from pyecharts import options as opts
 from pyecharts.charts import WordCloud
 import json
 
+# 生成tag频率词云图
+
 f = open('tag_wordcloud_data.json', encoding='utf-8')
 res = f.read()
 data = json.loads(res)
