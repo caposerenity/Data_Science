@@ -1,5 +1,7 @@
 import json
 
+# 获取词云图要用的数据
+
 f = open('type_tags_count.json', encoding='utf-8')
 res = f.read()
 data = json.loads(res)

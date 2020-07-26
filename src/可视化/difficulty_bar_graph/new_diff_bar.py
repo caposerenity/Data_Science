@@ -3,6 +3,8 @@ from pyecharts import options as opts
 from pyecharts.charts import Bar, Line
 from pyecharts.commons.utils import JsCode
 
+# 根据题目难度3生成不同类型题目难度分布图
+# 生成diff_type_diff_bar
 f = open('difficulty_test3.json', encoding='gbk')
 res = f.read()
 data = json.loads(res)

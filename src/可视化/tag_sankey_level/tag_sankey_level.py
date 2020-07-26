@@ -1,8 +1,8 @@
 import json
-
 from pyecharts import options as opts
 from pyecharts.charts import Sankey
 
+# 生成tag分类的桑葚图（第一种
 
 with open("tag_sankey_data.json", "r", encoding="utf-8") as f:
     j = json.load(f)

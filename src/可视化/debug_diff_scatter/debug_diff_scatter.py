@@ -1,7 +1,5 @@
-from pyecharts.faker import Faker
 from pyecharts import options as opts
 from pyecharts.charts import Scatter  # 导入散点图绘制模块
-from pyecharts.commons.utils import JsCode
 import json
 
 # 生成debug时间和题目难度的点图, 通过点图能看出debug时间得进行修正，修正后才能进行拟合
@@ -16,7 +14,7 @@ x_data = []
 y_data = []
 # x轴为难度，y轴为debug时间
 for k in data.keys():
-    if data[k]["case_type"] == "线性表":
+    if data[k]["case_type"] == "字符串":
         tmp = [data[k]["final_score"],data[k]["average_interval(min)"]]
         xy_data.append(tmp)
 xy_data = sorted(xy_data)

@@ -1,9 +1,8 @@
-import asyncio
-from aiohttp import TCPConnector, ClientSession
 import json
 import pyecharts.options as opts
 from pyecharts.charts import Sankey
 
+# 生成tag分类的桑葚图（第二种
 
 with open("tag_sankey_data.json", "r", encoding="utf-8") as f:
     data = json.load(f)
