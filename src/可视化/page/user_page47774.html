@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-liquidfill.min.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery.min.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/jquery-ui.min.js"></script>
         <script type="text/javascript" src="https://assets.pyecharts.org/assets/ResizeSensor.js"></script>
@@ -15,11 +16,11 @@
     <style>.box {  }; </style>
         <button onclick="downloadCfg()">Save Config</button>
     <div class="box">
-                <div id="b363c59e69b24999a009f2a3d5fd8714" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="b718c389cef049aabd23502f571ac9a0" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_b363c59e69b24999a009f2a3d5fd8714 = echarts.init(
-            document.getElementById('b363c59e69b24999a009f2a3d5fd8714'), 'white', {renderer: 'canvas'});
-        var option_b363c59e69b24999a009f2a3d5fd8714 = {
+        var chart_b718c389cef049aabd23502f571ac9a0 = echarts.init(
+            document.getElementById('b718c389cef049aabd23502f571ac9a0'), 'white', {renderer: 'canvas'});
+        var option_b718c389cef049aabd23502f571ac9a0 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -412,20 +413,448 @@
         ]
     }
 };
-        chart_b363c59e69b24999a009f2a3d5fd8714.setOption(option_b363c59e69b24999a009f2a3d5fd8714);
+        chart_b718c389cef049aabd23502f571ac9a0.setOption(option_b718c389cef049aabd23502f571ac9a0);
     </script>
-<br/>                        <div id="ab026868fd6f4ada85ae7e963a78ce57" class="chart-container" style="">
+<br/>                <div id="代码行数" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_代码行数 = echarts.init(
+            document.getElementById('代码行数'), 'white', {renderer: 'canvas'});
+        var option_代码行数 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "liquidFill",
+            "name": "line_rank",
+            "data": [
+                0.33659999999999995
+            ],
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#294D99",
+                "#156ACF",
+                "#1598ED",
+                "#45BDFF"
+            ],
+            "shape": "circle",
+            "outline": {
+                "show": true
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 50,
+                "formatter": function (param) {                                 return (Math.floor(param.value * 10000) / 100) + '%';                             }
+            },
+            "center": [
+                "15%",
+                "50%"
+            ],
+            "xAxisIndex": 0,
+            "yAxisIndex": 0
+        },
+        {
+            "type": "liquidFill",
+            "name": "note_rank",
+            "data": [
+                0.1499
+            ],
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#294D99",
+                "#156ACF",
+                "#1598ED",
+                "#45BDFF"
+            ],
+            "shape": "circle",
+            "outline": {
+                "show": true
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 50,
+                "formatter": function (param) {                        return (Math.floor(param.value * 10000) / 100) + '%';                    }
+            },
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "xAxisIndex": 1,
+            "yAxisIndex": 1
+        },
+        {
+            "type": "liquidFill",
+            "name": "time_rank",
+            "data": [
+                0.2021
+            ],
+            "waveAnimation": true,
+            "animationDuration": 2000,
+            "animationDurationUpdate": 1000,
+            "color": [
+                "#294D99",
+                "#156ACF",
+                "#1598ED",
+                "#45BDFF"
+            ],
+            "shape": "circle",
+            "outline": {
+                "show": true
+            },
+            "label": {
+                "show": true,
+                "position": "inside",
+                "margin": 8,
+                "fontSize": 50,
+                "formatter": function (param) {                        return (Math.floor(param.value * 10000) / 100) + '%';                    }
+            },
+            "center": [
+                "85%",
+                "50%"
+            ],
+            "xAxisIndex": 2,
+            "yAxisIndex": 2
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        },
+        {
+            "data": [],
+            "selected": {}
+        },
+        {
+            "data": [],
+            "selected": {}
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "user_id:47774\u7684\u4ee3\u7801\u884c\u6570\u3001\u6ce8\u91ca\u884c\u6570\u3001\u65f6\u95f4\u590d\u6742\u5ea6\u6392\u540d\u663e\u793a",
+            "top": 60,
+            "padding": 5,
+            "itemGap": 10
+        },
+        {
+            "padding": 5,
+            "itemGap": 10
+        },
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "grid": [
+        {
+            "containLabel": false
+        },
+        {
+            "containLabel": false
+        },
+        {
+            "containLabel": false
+        }
+    ]
+};
+        chart_代码行数.setOption(option_代码行数);
+    </script>
+<br/>                <div id="28315d0e933c49408f877723cb2aa077" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_28315d0e933c49408f877723cb2aa077 = echarts.init(
+            document.getElementById('28315d0e933c49408f877723cb2aa077'), 'white', {renderer: 'canvas'});
+        var option_28315d0e933c49408f877723cb2aa077 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "radar",
+            "name": "\u5b66\u751f\u80fd\u529b\u8bc4\u4f30",
+            "data": [
+                [
+                    62.15,
+                    68.78,
+                    65.56,
+                    73.04,
+                    72.03,
+                    60.91,
+                    43.47,
+                    81.61
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 3,
+                "opacity": 0.7,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#CD0000"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "radar",
+            "name": "\u5b66\u751f\u5e73\u5747\u5f97\u5206",
+            "data": [
+                [
+                    97.1,
+                    97.08,
+                    95.5,
+                    100.0,
+                    93.08,
+                    95.61,
+                    86.37,
+                    100.0
+                ]
+            ],
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "itemStyle": {
+                "normal": {}
+            },
+            "lineStyle": {
+                "show": true,
+                "width": 3,
+                "opacity": 0.7,
+                "curveness": 0,
+                "type": "solid",
+                "color": "#5CACEE"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5b66\u751f\u80fd\u529b\u8bc4\u4f30",
+                "\u5b66\u751f\u5e73\u5747\u5f97\u5206"
+            ],
+            "selected": {
+                "\u5b66\u751f\u80fd\u529b\u8bc4\u4f30": true,
+                "\u5b66\u751f\u5e73\u5747\u5f97\u5206": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "radar": {
+        "indicator": [
+            {
+                "name": "\u5b57\u7b26\u4e32",
+                "max": 100
+            },
+            {
+                "name": "\u7ebf\u6027\u8868",
+                "max": 100
+            },
+            {
+                "name": "\u6570\u7ec4",
+                "max": 100
+            },
+            {
+                "name": "\u67e5\u627e\u7b97\u6cd5",
+                "max": 100
+            },
+            {
+                "name": "\u6392\u5e8f\u7b97\u6cd5",
+                "max": 100
+            },
+            {
+                "name": "\u6570\u5b57\u64cd\u4f5c",
+                "max": 100
+            },
+            {
+                "name": "\u6811\u7ed3\u6784",
+                "max": 100
+            },
+            {
+                "name": "\u56fe\u7ed3\u6784",
+                "max": 100
+            }
+        ],
+        "name": {
+            "textStyle": {
+                "color": "#000"
+            }
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            }
+        },
+        "splitArea": {
+            "show": true,
+            "areaStyle": {
+                "opacity": 1
+            }
+        },
+        "axisLine": {
+            "show": true,
+            "onZero": true,
+            "onZeroAxisIndex": 0
+        }
+    },
+    "title": [
+        {
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_28315d0e933c49408f877723cb2aa077.setOption(option_28315d0e933c49408f877723cb2aa077);
+    </script>
+<br/>                        <div id="4ce8ecc05142406bbb789b6399438ef0" class="chart-container" style="">
             <p class="title" style="font-size: 18px; font-weight:bold;" > PYTHON 用户数据分析</p>
-            <p class="subtitle" style="font-size: 12px;" > 您有12.83%的题目使用面向用例方法<br/>您在数字操作题型中最喜欢面向用例,其中22.86%使用了面向用例<br/>使用面向用例的能力超过45.52%的同学:)<br/>你在字符串题型中平均提交次数最多, 平均提交了2次<br/>您喜欢平均分配每天的代码量<br/>03-29你完成了所有作业<br/>你最喜欢在凌晨写题目<br/>3月20日的2点你还在肝代码，小心头发<br/>你有91.98%的题目在一天内完成<br/>你遇到了5题较难的题, 有100.0%的题目你一天把它解决掉, 0.0%的题目是慢慢击破<br/></p>
+            <p class="subtitle" style="font-size: 12px;" > 关于面向用例：<br/>您有12.83%的题目使用面向用例方法<br/>您在数字操作题型中最喜欢面向用例,其中22.86%使用了面向用例<br/>使用面向用例的能力超过45.52%的同学:)<br/><br/>关于提交次数：<br/>你在字符串题型中平均提交次数最多, 平均提交了2次<br/><br/>关于时间偏好：<br/>您喜欢平均分配每天的代码量<br/>03-29你完成了所有作业<br/>你最喜欢在凌晨写题目<br/>3月20日的2点你还在肝代码，小心头发<br/>你有91.98%的题目在一天内完成<br/><br/>面对难题：<br/>你遇到了5题较难的题, 有100.0%的题目你一天把它解决掉, 0.0%的题目是慢慢击破<br/><br/><br/>代码风格评估：<br/>你的代码54.73%比较精简，15.54%比较冗长代码的时间复杂度79.05%较小，2.03%较大看来你python的掌握程度不错 :D<br/>你95.27%的题目中都有非英文命名，要养成良好的命名方式啊<br/>你注释的意识超过74.17%的同学这是一个好习惯，继续保持 :D<br/></p>
             <img />
         </div>
 
 <br/>    </div>
     <script>
-            $('#b363c59e69b24999a009f2a3d5fd8714').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#b363c59e69b24999a009f2a3d5fd8714>div:nth-child(1)").width("100%").height("100%");
-            new ResizeSensor(jQuery('#b363c59e69b24999a009f2a3d5fd8714'), function() { chart_b363c59e69b24999a009f2a3d5fd8714.resize()});
-            $('#ab026868fd6f4ada85ae7e963a78ce57').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#ab026868fd6f4ada85ae7e963a78ce57>div:nth-child(1)").width("100%").height("100%");
-            var charts_id = ['b363c59e69b24999a009f2a3d5fd8714','ab026868fd6f4ada85ae7e963a78ce57'];
+            $('#b718c389cef049aabd23502f571ac9a0').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#b718c389cef049aabd23502f571ac9a0>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#b718c389cef049aabd23502f571ac9a0'), function() { chart_b718c389cef049aabd23502f571ac9a0.resize()});
+            $('#代码行数').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#代码行数>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#代码行数'), function() { chart_代码行数.resize()});
+            $('#28315d0e933c49408f877723cb2aa077').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#28315d0e933c49408f877723cb2aa077>div:nth-child(1)").width("100%").height("100%");
+            new ResizeSensor(jQuery('#28315d0e933c49408f877723cb2aa077'), function() { chart_28315d0e933c49408f877723cb2aa077.resize()});
+            $('#4ce8ecc05142406bbb789b6399438ef0').resizable().draggable().css('border-style', 'dashed').css('border-width', '1px');$("#4ce8ecc05142406bbb789b6399438ef0>div:nth-child(1)").width("100%").height("100%");
+            var charts_id = ['b718c389cef049aabd23502f571ac9a0','代码行数','28315d0e933c49408f877723cb2aa077','4ce8ecc05142406bbb789b6399438ef0'];
 function downloadCfg () {
     const fileName = 'chart_config.json'
     let downLink = document.createElement('a')
