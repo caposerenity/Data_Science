@@ -41,17 +41,1019 @@
         }
     </style>
     <div class="tab">
-            <button class="tablinks" onclick="showChart(event, '4939e647272a47e8888538c74f2599bc')">难度分布图</button>
-            <button class="tablinks" onclick="showChart(event, 'f4ccdb4cf41946d39a6a5952ce1aa71c')">字符串debug时间和难度点图</button>
-            <button class="tablinks" onclick="showChart(event, '27d9731a213a4f0cad68cd01cbd99b1c')">tag词云图</button>
+            <button class="tablinks" onclick="showChart(event, 'b33a05b8c605431cb7efed0e0a7a032e')">面向用例分布图</button>
+            <button class="tablinks" onclick="showChart(event, 'c5714581a7194918851f5fda94923241')">难度分布图</button>
+            <button class="tablinks" onclick="showChart(event, '34d05d6d61344355b609a45e4b268b68')">字符串debug时间和难度点图</button>
+            <button class="tablinks" onclick="showChart(event, '36883e11da9441c0b0298475a5785e66')">tag词云图</button>
     </div>
 
     <div class="box">
-                <div id="4939e647272a47e8888538c74f2599bc" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="b33a05b8c605431cb7efed0e0a7a032e" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_4939e647272a47e8888538c74f2599bc = echarts.init(
-            document.getElementById('4939e647272a47e8888538c74f2599bc'), 'white', {renderer: 'canvas'});
-        var option_4939e647272a47e8888538c74f2599bc = {
+        var chart_b33a05b8c605431cb7efed0e0a7a032e = echarts.init(
+            document.getElementById('b33a05b8c605431cb7efed0e0a7a032e'), 'white', {renderer: 'canvas'});
+        var option_b33a05b8c605431cb7efed0e0a7a032e = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "\u9762\u5411\u7528\u4f8b\u9898\u6570",
+            "data": [
+                4,
+                35,
+                60,
+                1,
+                50,
+                35,
+                9,
+                44,
+                2,
+                32,
+                89,
+                37,
+                16,
+                13,
+                23,
+                6,
+                59,
+                24,
+                40,
+                29,
+                35,
+                24,
+                8,
+                28,
+                22,
+                100,
+                82,
+                12,
+                53,
+                52,
+                17,
+                86,
+                65,
+                4,
+                36,
+                37,
+                21,
+                56,
+                43,
+                48,
+                38,
+                49,
+                6,
+                31,
+                6,
+                20,
+                134,
+                45,
+                2,
+                17,
+                38,
+                1,
+                24,
+                129,
+                13,
+                24,
+                22,
+                6,
+                23,
+                15,
+                93,
+                52,
+                34,
+                6,
+                3,
+                27,
+                8,
+                2,
+                8,
+                10,
+                44,
+                5,
+                21,
+                37,
+                18,
+                39,
+                20,
+                20,
+                19,
+                15,
+                10,
+                29,
+                41,
+                63,
+                55,
+                25,
+                11,
+                27,
+                17,
+                32,
+                10,
+                33,
+                25,
+                73,
+                41,
+                0,
+                56,
+                125,
+                1,
+                4,
+                30,
+                45,
+                11,
+                0,
+                0,
+                0,
+                1,
+                0,
+                1,
+                17,
+                45,
+                29,
+                28,
+                37,
+                64,
+                16,
+                9,
+                1,
+                38,
+                10,
+                49,
+                42,
+                14,
+                21,
+                46,
+                53,
+                9,
+                16,
+                35,
+                18,
+                13,
+                13,
+                62,
+                21,
+                4,
+                26,
+                12,
+                28,
+                24,
+                8,
+                25,
+                58,
+                26,
+                30,
+                5,
+                23,
+                32,
+                10,
+                26,
+                32,
+                19,
+                1,
+                0,
+                4,
+                1,
+                1,
+                1,
+                2,
+                3,
+                0,
+                127,
+                25,
+                31,
+                56,
+                35,
+                22,
+                26,
+                17,
+                56,
+                61,
+                81,
+                65,
+                62,
+                52,
+                22,
+                62,
+                9,
+                28,
+                77,
+                30,
+                19,
+                30,
+                82,
+                77,
+                19,
+                140,
+                26,
+                36,
+                5,
+                136,
+                20,
+                82,
+                8,
+                9,
+                36,
+                49,
+                39,
+                101,
+                4,
+                7,
+                3,
+                0,
+                0,
+                0,
+                42,
+                104,
+                96,
+                101,
+                112,
+                0,
+                10,
+                1,
+                20,
+                72,
+                24,
+                63,
+                107,
+                100,
+                100,
+                108,
+                37,
+                40,
+                98,
+                11,
+                45,
+                31,
+                41,
+                171,
+                27,
+                46,
+                89,
+                30,
+                36,
+                61,
+                2,
+                93,
+                28,
+                17,
+                15,
+                27,
+                79,
+                20,
+                21,
+                14,
+                32,
+                6,
+                3,
+                17,
+                57,
+                48,
+                10,
+                54,
+                24,
+                17,
+                0,
+                39,
+                23,
+                20,
+                60,
+                107,
+                10,
+                20,
+                0,
+                3,
+                2,
+                4,
+                0,
+                1,
+                0,
+                0,
+                0
+            ],
+            "stack": "stack1",
+            "barCategoryGap": "20%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u6b63\u5e38\u5b8c\u6210\u9898\u6570",
+            "data": [
+                5,
+                119,
+                140,
+                4,
+                148,
+                134,
+                154,
+                156,
+                82,
+                166,
+                111,
+                163,
+                184,
+                117,
+                85,
+                140,
+                141,
+                176,
+                159,
+                71,
+                122,
+                136,
+                177,
+                170,
+                165,
+                100,
+                117,
+                135,
+                142,
+                148,
+                181,
+                114,
+                112,
+                174,
+                149,
+                149,
+                169,
+                144,
+                149,
+                152,
+                162,
+                141,
+                145,
+                123,
+                159,
+                150,
+                28,
+                155,
+                57,
+                114,
+                168,
+                21,
+                176,
+                70,
+                187,
+                176,
+                173,
+                30,
+                177,
+                185,
+                107,
+                148,
+                166,
+                120,
+                73,
+                157,
+                192,
+                51,
+                125,
+                159,
+                155,
+                187,
+                163,
+                152,
+                182,
+                160,
+                97,
+                180,
+                163,
+                160,
+                163,
+                19,
+                159,
+                137,
+                145,
+                175,
+                181,
+                173,
+                183,
+                168,
+                170,
+                167,
+                175,
+                126,
+                30,
+                40,
+                142,
+                44,
+                20,
+                36,
+                170,
+                155,
+                135,
+                1,
+                1,
+                1,
+                1,
+                2,
+                158,
+                166,
+                153,
+                170,
+                171,
+                156,
+                135,
+                183,
+                151,
+                31,
+                161,
+                183,
+                150,
+                157,
+                162,
+                177,
+                69,
+                138,
+                119,
+                130,
+                164,
+                181,
+                186,
+                160,
+                137,
+                178,
+                111,
+                150,
+                173,
+                171,
+                175,
+                175,
+                174,
+                141,
+                173,
+                169,
+                79,
+                176,
+                166,
+                176,
+                147,
+                151,
+                149,
+                24,
+                28,
+                36,
+                5,
+                13,
+                72,
+                45,
+                2,
+                1,
+                73,
+                175,
+                169,
+                144,
+                165,
+                177,
+                174,
+                183,
+                141,
+                118,
+                104,
+                131,
+                138,
+                119,
+                177,
+                138,
+                169,
+                162,
+                123,
+                170,
+                181,
+                170,
+                80,
+                123,
+                181,
+                58,
+                174,
+                164,
+                94,
+                64,
+                176,
+                118,
+                107,
+                191,
+                162,
+                150,
+                134,
+                99,
+                133,
+                126,
+                146,
+                29,
+                55,
+                3,
+                149,
+                92,
+                94,
+                95,
+                88,
+                19,
+                173,
+                36,
+                172,
+                63,
+                163,
+                96,
+                93,
+                66,
+                67,
+                89,
+                102,
+                160,
+                98,
+                74,
+                99,
+                169,
+                159,
+                29,
+                173,
+                154,
+                111,
+                163,
+                163,
+                139,
+                21,
+                107,
+                171,
+                183,
+                178,
+                171,
+                121,
+                180,
+                179,
+                186,
+                158,
+                75,
+                109,
+                183,
+                143,
+                152,
+                124,
+                131,
+                176,
+                151,
+                27,
+                160,
+                177,
+                180,
+                139,
+                93,
+                111,
+                72,
+                1,
+                27,
+                26,
+                36,
+                24,
+                8,
+                1,
+                6,
+                1
+            ],
+            "stack": "stack1",
+            "barCategoryGap": "20%",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u9762\u5411\u7528\u4f8b\u9898\u6570",
+                "\u6b63\u5e38\u5b8c\u6210\u9898\u6570"
+            ],
+            "selected": {
+                "\u9762\u5411\u7528\u4f8b\u9898\u6570": true,
+                "\u6b63\u5e38\u5b8c\u6210\u9898\u6570": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "name": "\u7528\u6237ID",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "3544",
+                "48117",
+                "49405",
+                "51584",
+                "60581",
+                "60587",
+                "60604",
+                "60606",
+                "60616",
+                "60619",
+                "60631",
+                "60634",
+                "60635",
+                "60639",
+                "60654",
+                "60665",
+                "60671",
+                "60676",
+                "60686",
+                "60707",
+                "60708",
+                "60715",
+                "60737",
+                "60752",
+                "60760",
+                "60762",
+                "60763",
+                "60769",
+                "60772",
+                "60773",
+                "60775",
+                "60782",
+                "60785",
+                "60788",
+                "60799",
+                "60812",
+                "60829",
+                "60832",
+                "60833",
+                "60870",
+                "60885",
+                "60895",
+                "60896",
+                "60899",
+                "61019",
+                "61053",
+                "61094",
+                "61406",
+                "60615",
+                "47329",
+                "60598",
+                "58834",
+                "59018",
+                "60586",
+                "60589",
+                "60602",
+                "60603",
+                "60613",
+                "60620",
+                "60621",
+                "60627",
+                "60632",
+                "60636",
+                "60642",
+                "60651",
+                "60652",
+                "60658",
+                "60659",
+                "60677",
+                "60683",
+                "60688",
+                "60690",
+                "60694",
+                "60695",
+                "60703",
+                "60706",
+                "60714",
+                "60716",
+                "60720",
+                "60722",
+                "60724",
+                "60725",
+                "60730",
+                "60733",
+                "60738",
+                "60742",
+                "60753",
+                "60756",
+                "60759",
+                "60764",
+                "60768",
+                "60771",
+                "60787",
+                "60790",
+                "60827",
+                "60828",
+                "60900",
+                "60901",
+                "61097",
+                "61106",
+                "61132",
+                "61135",
+                "61519",
+                "40552",
+                "61035",
+                "61074",
+                "60583",
+                "39201",
+                "48102",
+                "58758",
+                "59308",
+                "60585",
+                "60590",
+                "60595",
+                "60599",
+                "60617",
+                "60624",
+                "60630",
+                "60638",
+                "60641",
+                "60647",
+                "60653",
+                "60657",
+                "60661",
+                "60666",
+                "60668",
+                "60669",
+                "60675",
+                "60692",
+                "60696",
+                "60698",
+                "60710",
+                "60749",
+                "60750",
+                "60751",
+                "60755",
+                "60757",
+                "60766",
+                "60767",
+                "60776",
+                "60777",
+                "60792",
+                "60795",
+                "60835",
+                "60837",
+                "60846",
+                "60876",
+                "60889",
+                "60898",
+                "61041",
+                "61659",
+                "60645",
+                "60679",
+                "60700",
+                "34511",
+                "60711",
+                "60866",
+                "61212",
+                "2843",
+                "60578",
+                "49823",
+                "60580",
+                "60591",
+                "60592",
+                "60601",
+                "60605",
+                "60610",
+                "60614",
+                "60618",
+                "60622",
+                "60623",
+                "60625",
+                "60644",
+                "60648",
+                "60649",
+                "60667",
+                "60670",
+                "60673",
+                "60678",
+                "60691",
+                "60697",
+                "60699",
+                "60712",
+                "60721",
+                "60723",
+                "60731",
+                "60747",
+                "60765",
+                "60778",
+                "60781",
+                "60791",
+                "60793",
+                "60794",
+                "60796",
+                "60797",
+                "60810",
+                "60836",
+                "60839",
+                "60891",
+                "61046",
+                "61048",
+                "61715",
+                "60628",
+                "60713",
+                "8160",
+                "8246",
+                "8317",
+                "8318",
+                "16304",
+                "39021",
+                "39160",
+                "39190",
+                "39200",
+                "40186",
+                "47774",
+                "47920",
+                "47937",
+                "47961",
+                "48025",
+                "48083",
+                "48721",
+                "49361",
+                "49687",
+                "50263",
+                "52592",
+                "58547",
+                "58575",
+                "58585",
+                "58586",
+                "58610",
+                "58616",
+                "58634",
+                "58778",
+                "58822",
+                "58865",
+                "59137",
+                "59140",
+                "60593",
+                "60594",
+                "60608",
+                "60611",
+                "60637",
+                "60640",
+                "60643",
+                "60660",
+                "60662",
+                "60672",
+                "60693",
+                "60705",
+                "60717",
+                "60719",
+                "60727",
+                "60734",
+                "60739",
+                "60746",
+                "60758",
+                "60761",
+                "60770",
+                "60774",
+                "60825",
+                "61020",
+                "47996",
+                "60689",
+                "61143",
+                "48090",
+                "58744",
+                "60584",
+                "60728",
+                "49315",
+                "47879",
+                "60822"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "name": "\u9898\u76ee\u6570\u91cf",
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "\u9762\u5411\u7528\u4f8b\u6bd4\u4f8b\u56fe",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false
+        },
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false
+        }
+    ]
+};
+        chart_b33a05b8c605431cb7efed0e0a7a032e.setOption(option_b33a05b8c605431cb7efed0e0a7a032e);
+    </script>
+                <div id="c5714581a7194918851f5fda94923241" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_c5714581a7194918851f5fda94923241 = echarts.init(
+            document.getElementById('c5714581a7194918851f5fda94923241'), 'white', {renderer: 'canvas'});
+        var option_c5714581a7194918851f5fda94923241 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -523,13 +1525,13 @@
         }
     }
 };
-        chart_4939e647272a47e8888538c74f2599bc.setOption(option_4939e647272a47e8888538c74f2599bc);
+        chart_c5714581a7194918851f5fda94923241.setOption(option_c5714581a7194918851f5fda94923241);
     </script>
-                <div id="f4ccdb4cf41946d39a6a5952ce1aa71c" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="34d05d6d61344355b609a45e4b268b68" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_f4ccdb4cf41946d39a6a5952ce1aa71c = echarts.init(
-            document.getElementById('f4ccdb4cf41946d39a6a5952ce1aa71c'), 'white', {renderer: 'canvas'});
-        var option_f4ccdb4cf41946d39a6a5952ce1aa71c = {
+        var chart_34d05d6d61344355b609a45e4b268b68 = echarts.init(
+            document.getElementById('34d05d6d61344355b609a45e4b268b68'), 'white', {renderer: 'canvas'});
+        var option_34d05d6d61344355b609a45e4b268b68 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -1087,13 +2089,13 @@
         "borderWidth": 0
     }
 };
-        chart_f4ccdb4cf41946d39a6a5952ce1aa71c.setOption(option_f4ccdb4cf41946d39a6a5952ce1aa71c);
+        chart_34d05d6d61344355b609a45e4b268b68.setOption(option_34d05d6d61344355b609a45e4b268b68);
     </script>
-                <div id="27d9731a213a4f0cad68cd01cbd99b1c" class="chart-container" style="width:900px; height:500px;"></div>
+                <div id="36883e11da9441c0b0298475a5785e66" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_27d9731a213a4f0cad68cd01cbd99b1c = echarts.init(
-            document.getElementById('27d9731a213a4f0cad68cd01cbd99b1c'), 'white', {renderer: 'canvas'});
-        var option_27d9731a213a4f0cad68cd01cbd99b1c = {
+        var chart_36883e11da9441c0b0298475a5785e66 = echarts.init(
+            document.getElementById('36883e11da9441c0b0298475a5785e66'), 'white', {renderer: 'canvas'});
+        var option_36883e11da9441c0b0298475a5785e66 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -1148,7 +2150,7 @@
                     "value": 21,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(30,116,83)"
+                            "color": "rgb(64,82,8)"
                         }
                     }
                 },
@@ -1157,7 +2159,7 @@
                     "value": 85,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(50,24,51)"
+                            "color": "rgb(131,123,71)"
                         }
                     }
                 },
@@ -1166,7 +2168,7 @@
                     "value": 21,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(102,93,94)"
+                            "color": "rgb(86,40,96)"
                         }
                     }
                 },
@@ -1175,7 +2177,7 @@
                     "value": 13,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(160,154,145)"
+                            "color": "rgb(129,108,40)"
                         }
                     }
                 },
@@ -1184,7 +2186,7 @@
                     "value": 47,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(36,13,11)"
+                            "color": "rgb(117,137,42)"
                         }
                     }
                 },
@@ -1193,7 +2195,7 @@
                     "value": 65,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(30,35,142)"
+                            "color": "rgb(5,150,73)"
                         }
                     }
                 },
@@ -1202,7 +2204,7 @@
                     "value": 20,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(55,92,48)"
+                            "color": "rgb(95,20,158)"
                         }
                     }
                 },
@@ -1211,7 +2213,7 @@
                     "value": 5,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(33,117,54)"
+                            "color": "rgb(97,125,28)"
                         }
                     }
                 },
@@ -1220,7 +2222,7 @@
                     "value": 35,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(135,23,16)"
+                            "color": "rgb(48,88,57)"
                         }
                     }
                 },
@@ -1229,7 +2231,7 @@
                     "value": 22,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(77,27,37)"
+                            "color": "rgb(20,58,110)"
                         }
                     }
                 },
@@ -1238,7 +2240,7 @@
                     "value": 5,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(154,105,147)"
+                            "color": "rgb(74,128,36)"
                         }
                     }
                 },
@@ -1247,7 +2249,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(79,87,125)"
+                            "color": "rgb(93,139,160)"
                         }
                     }
                 },
@@ -1256,7 +2258,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(51,44,50)"
+                            "color": "rgb(110,124,128)"
                         }
                     }
                 },
@@ -1265,7 +2267,7 @@
                     "value": 12,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(23,125,95)"
+                            "color": "rgb(82,85,71)"
                         }
                     }
                 },
@@ -1274,7 +2276,7 @@
                     "value": 53,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(109,18,73)"
+                            "color": "rgb(77,16,105)"
                         }
                     }
                 },
@@ -1283,7 +2285,7 @@
                     "value": 18,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(12,6,58)"
+                            "color": "rgb(35,53,92)"
                         }
                     }
                 },
@@ -1292,7 +2294,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(108,69,44)"
+                            "color": "rgb(25,97,63)"
                         }
                     }
                 },
@@ -1301,7 +2303,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(144,130,120)"
+                            "color": "rgb(13,27,113)"
                         }
                     }
                 },
@@ -1310,7 +2312,7 @@
                     "value": 55,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(65,88,91)"
+                            "color": "rgb(20,40,105)"
                         }
                     }
                 },
@@ -1319,7 +2321,7 @@
                     "value": 10,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(80,137,29)"
+                            "color": "rgb(68,72,106)"
                         }
                     }
                 },
@@ -1328,7 +2330,7 @@
                     "value": 65,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(124,80,147)"
+                            "color": "rgb(93,77,157)"
                         }
                     }
                 },
@@ -1337,7 +2339,7 @@
                     "value": 11,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(108,64,14)"
+                            "color": "rgb(64,46,138)"
                         }
                     }
                 },
@@ -1346,7 +2348,7 @@
                     "value": 4,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(99,68,143)"
+                            "color": "rgb(0,140,116)"
                         }
                     }
                 },
@@ -1355,7 +2357,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(109,18,47)"
+                            "color": "rgb(79,12,159)"
                         }
                     }
                 },
@@ -1364,7 +2366,7 @@
                     "value": 222,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(10,17,113)"
+                            "color": "rgb(60,100,116)"
                         }
                     }
                 },
@@ -1373,7 +2375,7 @@
                     "value": 11,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(142,106,45)"
+                            "color": "rgb(14,148,50)"
                         }
                     }
                 },
@@ -1382,7 +2384,7 @@
                     "value": 34,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(141,107,49)"
+                            "color": "rgb(1,5,27)"
                         }
                     }
                 },
@@ -1391,7 +2393,7 @@
                     "value": 75,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(46,127,50)"
+                            "color": "rgb(4,46,110)"
                         }
                     }
                 },
@@ -1400,7 +2402,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(71,52,16)"
+                            "color": "rgb(51,77,74)"
                         }
                     }
                 },
@@ -1409,7 +2411,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(25,9,119)"
+                            "color": "rgb(51,27,96)"
                         }
                     }
                 },
@@ -1418,7 +2420,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(55,6,71)"
+                            "color": "rgb(37,27,142)"
                         }
                     }
                 },
@@ -1427,7 +2429,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(81,45,73)"
+                            "color": "rgb(155,103,32)"
                         }
                     }
                 },
@@ -1436,7 +2438,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(145,136,10)"
+                            "color": "rgb(153,140,101)"
                         }
                     }
                 },
@@ -1445,7 +2447,7 @@
                     "value": 17,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(51,119,0)"
+                            "color": "rgb(152,66,49)"
                         }
                     }
                 },
@@ -1454,7 +2456,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(96,67,145)"
+                            "color": "rgb(160,5,99)"
                         }
                     }
                 },
@@ -1463,7 +2465,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(37,136,43)"
+                            "color": "rgb(97,23,46)"
                         }
                     }
                 },
@@ -1472,7 +2474,7 @@
                     "value": 7,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(120,54,50)"
+                            "color": "rgb(74,60,46)"
                         }
                     }
                 },
@@ -1481,7 +2483,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(14,50,27)"
+                            "color": "rgb(111,138,145)"
                         }
                     }
                 },
@@ -1490,7 +2492,7 @@
                     "value": 19,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(107,13,80)"
+                            "color": "rgb(89,21,128)"
                         }
                     }
                 },
@@ -1499,7 +2501,7 @@
                     "value": 17,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(97,6,149)"
+                            "color": "rgb(154,80,60)"
                         }
                     }
                 },
@@ -1508,7 +2510,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(1,140,94)"
+                            "color": "rgb(38,30,78)"
                         }
                     }
                 },
@@ -1517,7 +2519,7 @@
                     "value": 13,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(23,69,112)"
+                            "color": "rgb(49,144,113)"
                         }
                     }
                 },
@@ -1526,7 +2528,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(93,151,86)"
+                            "color": "rgb(79,100,142)"
                         }
                     }
                 },
@@ -1535,7 +2537,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(79,58,53)"
+                            "color": "rgb(87,69,99)"
                         }
                     }
                 },
@@ -1544,7 +2546,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(26,159,102)"
+                            "color": "rgb(100,4,34)"
                         }
                     }
                 },
@@ -1553,7 +2555,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(20,56,66)"
+                            "color": "rgb(135,63,29)"
                         }
                     }
                 },
@@ -1562,7 +2564,7 @@
                     "value": 23,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(113,155,71)"
+                            "color": "rgb(114,57,51)"
                         }
                     }
                 },
@@ -1571,7 +2573,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(23,43,39)"
+                            "color": "rgb(83,9,100)"
                         }
                     }
                 },
@@ -1580,7 +2582,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(73,40,113)"
+                            "color": "rgb(160,114,109)"
                         }
                     }
                 },
@@ -1589,7 +2591,7 @@
                     "value": 23,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(13,37,92)"
+                            "color": "rgb(135,57,137)"
                         }
                     }
                 },
@@ -1598,7 +2600,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(62,1,126)"
+                            "color": "rgb(124,102,15)"
                         }
                     }
                 },
@@ -1607,7 +2609,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(109,105,78)"
+                            "color": "rgb(8,31,148)"
                         }
                     }
                 },
@@ -1616,7 +2618,7 @@
                     "value": 14,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(37,138,117)"
+                            "color": "rgb(81,148,114)"
                         }
                     }
                 },
@@ -1625,7 +2627,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(133,74,57)"
+                            "color": "rgb(100,124,78)"
                         }
                     }
                 },
@@ -1634,7 +2636,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(94,67,112)"
+                            "color": "rgb(140,74,127)"
                         }
                     }
                 },
@@ -1643,7 +2645,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(37,91,43)"
+                            "color": "rgb(153,159,134)"
                         }
                     }
                 },
@@ -1652,7 +2654,7 @@
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(85,149,81)"
+                            "color": "rgb(82,104,71)"
                         }
                     }
                 },
@@ -1661,7 +2663,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(17,107,155)"
+                            "color": "rgb(56,150,66)"
                         }
                     }
                 },
@@ -1670,7 +2672,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(36,28,24)"
+                            "color": "rgb(108,155,147)"
                         }
                     }
                 },
@@ -1679,7 +2681,7 @@
                     "value": 17,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(99,95,93)"
+                            "color": "rgb(57,151,40)"
                         }
                     }
                 },
@@ -1688,7 +2690,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(147,36,137)"
+                            "color": "rgb(48,121,59)"
                         }
                     }
                 },
@@ -1697,7 +2699,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(151,13,7)"
+                            "color": "rgb(70,55,99)"
                         }
                     }
                 },
@@ -1706,7 +2708,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(15,51,54)"
+                            "color": "rgb(149,22,147)"
                         }
                     }
                 },
@@ -1715,7 +2717,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(158,121,26)"
+                            "color": "rgb(109,98,69)"
                         }
                     }
                 },
@@ -1724,7 +2726,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(24,38,16)"
+                            "color": "rgb(1,44,46)"
                         }
                     }
                 },
@@ -1733,7 +2735,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(18,134,72)"
+                            "color": "rgb(19,38,1)"
                         }
                     }
                 },
@@ -1742,7 +2744,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(58,156,84)"
+                            "color": "rgb(29,123,106)"
                         }
                     }
                 },
@@ -1751,7 +2753,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(10,82,28)"
+                            "color": "rgb(140,23,79)"
                         }
                     }
                 },
@@ -1760,7 +2762,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(150,20,26)"
+                            "color": "rgb(134,122,132)"
                         }
                     }
                 },
@@ -1769,7 +2771,7 @@
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(35,66,107)"
+                            "color": "rgb(67,95,32)"
                         }
                     }
                 },
@@ -1778,7 +2780,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(38,38,147)"
+                            "color": "rgb(24,68,103)"
                         }
                     }
                 },
@@ -1787,7 +2789,7 @@
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(16,41,81)"
+                            "color": "rgb(27,16,140)"
                         }
                     }
                 },
@@ -1796,7 +2798,7 @@
                     "value": 9,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(58,115,33)"
+                            "color": "rgb(94,134,132)"
                         }
                     }
                 },
@@ -1805,7 +2807,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(39,68,160)"
+                            "color": "rgb(70,113,32)"
                         }
                     }
                 },
@@ -1814,7 +2816,7 @@
                     "value": 5,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(121,54,134)"
+                            "color": "rgb(144,45,57)"
                         }
                     }
                 },
@@ -1823,7 +2825,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(148,157,29)"
+                            "color": "rgb(149,24,117)"
                         }
                     }
                 },
@@ -1832,7 +2834,7 @@
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(102,83,12)"
+                            "color": "rgb(145,80,76)"
                         }
                     }
                 },
@@ -1841,7 +2843,7 @@
                     "value": 5,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(23,3,5)"
+                            "color": "rgb(133,30,92)"
                         }
                     }
                 },
@@ -1850,7 +2852,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(87,2,108)"
+                            "color": "rgb(117,78,7)"
                         }
                     }
                 },
@@ -1859,7 +2861,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(28,42,50)"
+                            "color": "rgb(142,124,60)"
                         }
                     }
                 },
@@ -1868,7 +2870,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(87,149,25)"
+                            "color": "rgb(99,132,51)"
                         }
                     }
                 },
@@ -1877,7 +2879,7 @@
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(107,109,150)"
+                            "color": "rgb(28,138,48)"
                         }
                     }
                 },
@@ -1886,7 +2888,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(41,32,75)"
+                            "color": "rgb(11,3,139)"
                         }
                     }
                 },
@@ -1895,7 +2897,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(10,134,139)"
+                            "color": "rgb(157,59,55)"
                         }
                     }
                 },
@@ -1904,7 +2906,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(17,12,150)"
+                            "color": "rgb(137,118,98)"
                         }
                     }
                 },
@@ -1913,7 +2915,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(121,12,31)"
+                            "color": "rgb(131,133,67)"
                         }
                     }
                 },
@@ -1922,7 +2924,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(136,90,5)"
+                            "color": "rgb(115,70,100)"
                         }
                     }
                 },
@@ -1931,7 +2933,7 @@
                     "value": 8,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(38,132,5)"
+                            "color": "rgb(74,0,89)"
                         }
                     }
                 },
@@ -1940,7 +2942,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(19,114,70)"
+                            "color": "rgb(104,21,28)"
                         }
                     }
                 },
@@ -1949,7 +2951,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(99,104,149)"
+                            "color": "rgb(160,89,9)"
                         }
                     }
                 },
@@ -1958,7 +2960,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(158,116,62)"
+                            "color": "rgb(31,70,20)"
                         }
                     }
                 },
@@ -1967,7 +2969,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(14,9,31)"
+                            "color": "rgb(28,8,50)"
                         }
                     }
                 },
@@ -1976,7 +2978,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(120,75,67)"
+                            "color": "rgb(146,103,132)"
                         }
                     }
                 },
@@ -1985,7 +2987,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(105,90,113)"
+                            "color": "rgb(13,160,31)"
                         }
                     }
                 },
@@ -1994,7 +2996,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(65,78,130)"
+                            "color": "rgb(142,62,103)"
                         }
                     }
                 },
@@ -2003,7 +3005,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(14,157,73)"
+                            "color": "rgb(138,156,10)"
                         }
                     }
                 },
@@ -2012,7 +3014,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(137,16,18)"
+                            "color": "rgb(91,108,107)"
                         }
                     }
                 },
@@ -2021,7 +3023,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(19,94,138)"
+                            "color": "rgb(7,38,13)"
                         }
                     }
                 },
@@ -2030,7 +3032,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(71,32,74)"
+                            "color": "rgb(23,121,129)"
                         }
                     }
                 },
@@ -2039,7 +3041,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(124,55,106)"
+                            "color": "rgb(147,3,4)"
                         }
                     }
                 },
@@ -2048,7 +3050,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(67,84,93)"
+                            "color": "rgb(129,138,49)"
                         }
                     }
                 },
@@ -2057,7 +3059,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(131,136,47)"
+                            "color": "rgb(36,13,51)"
                         }
                     }
                 },
@@ -2066,7 +3068,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(22,145,145)"
+                            "color": "rgb(120,57,8)"
                         }
                     }
                 },
@@ -2075,7 +3077,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(57,27,139)"
+                            "color": "rgb(109,142,39)"
                         }
                     }
                 },
@@ -2084,7 +3086,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(109,158,31)"
+                            "color": "rgb(129,43,134)"
                         }
                     }
                 },
@@ -2093,7 +3095,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(149,55,37)"
+                            "color": "rgb(67,55,56)"
                         }
                     }
                 },
@@ -2102,7 +3104,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(8,23,105)"
+                            "color": "rgb(124,13,110)"
                         }
                     }
                 },
@@ -2111,7 +3113,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(39,44,118)"
+                            "color": "rgb(100,159,45)"
                         }
                     }
                 },
@@ -2120,7 +3122,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(116,33,69)"
+                            "color": "rgb(132,30,124)"
                         }
                     }
                 },
@@ -2129,7 +3131,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(61,110,152)"
+                            "color": "rgb(60,29,150)"
                         }
                     }
                 },
@@ -2138,7 +3140,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(88,160,66)"
+                            "color": "rgb(30,97,88)"
                         }
                     }
                 },
@@ -2147,7 +3149,7 @@
                     "value": 6,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(34,20,135)"
+                            "color": "rgb(62,128,70)"
                         }
                     }
                 },
@@ -2156,7 +3158,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(145,55,49)"
+                            "color": "rgb(159,84,57)"
                         }
                     }
                 },
@@ -2165,7 +3167,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(13,126,51)"
+                            "color": "rgb(148,125,86)"
                         }
                     }
                 },
@@ -2174,7 +3176,7 @@
                     "value": 2,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(17,28,66)"
+                            "color": "rgb(74,50,107)"
                         }
                     }
                 },
@@ -2183,7 +3185,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(43,126,14)"
+                            "color": "rgb(58,34,34)"
                         }
                     }
                 },
@@ -2192,7 +3194,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(102,147,67)"
+                            "color": "rgb(6,156,124)"
                         }
                     }
                 },
@@ -2201,7 +3203,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(32,113,38)"
+                            "color": "rgb(63,133,141)"
                         }
                     }
                 },
@@ -2210,7 +3212,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(159,4,112)"
+                            "color": "rgb(132,135,154)"
                         }
                     }
                 },
@@ -2219,7 +3221,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(86,71,74)"
+                            "color": "rgb(3,18,64)"
                         }
                     }
                 },
@@ -2228,7 +3230,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(146,110,62)"
+                            "color": "rgb(157,36,139)"
                         }
                     }
                 },
@@ -2237,7 +3239,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(101,28,157)"
+                            "color": "rgb(65,10,116)"
                         }
                     }
                 },
@@ -2246,7 +3248,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(109,78,67)"
+                            "color": "rgb(158,135,139)"
                         }
                     }
                 },
@@ -2255,7 +3257,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(13,72,55)"
+                            "color": "rgb(68,120,9)"
                         }
                     }
                 },
@@ -2264,7 +3266,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(11,4,38)"
+                            "color": "rgb(72,28,88)"
                         }
                     }
                 },
@@ -2273,7 +3275,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(130,20,126)"
+                            "color": "rgb(13,90,108)"
                         }
                     }
                 },
@@ -2282,7 +3284,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(111,100,52)"
+                            "color": "rgb(52,106,106)"
                         }
                     }
                 },
@@ -2291,7 +3293,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(127,154,28)"
+                            "color": "rgb(72,39,79)"
                         }
                     }
                 },
@@ -2300,7 +3302,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(39,90,42)"
+                            "color": "rgb(108,2,48)"
                         }
                     }
                 },
@@ -2309,7 +3311,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(48,115,26)"
+                            "color": "rgb(159,67,81)"
                         }
                     }
                 },
@@ -2318,7 +3320,7 @@
                     "value": 3,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(73,117,69)"
+                            "color": "rgb(107,112,17)"
                         }
                     }
                 },
@@ -2327,7 +3329,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(133,120,132)"
+                            "color": "rgb(51,123,32)"
                         }
                     }
                 },
@@ -2336,7 +3338,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(92,81,117)"
+                            "color": "rgb(135,58,25)"
                         }
                     }
                 },
@@ -2345,7 +3347,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(148,66,13)"
+                            "color": "rgb(106,53,67)"
                         }
                     }
                 },
@@ -2354,7 +3356,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(142,5,147)"
+                            "color": "rgb(144,113,46)"
                         }
                     }
                 },
@@ -2363,7 +3365,7 @@
                     "value": 1,
                     "textStyle": {
                         "normal": {
-                            "color": "rgb(56,124,22)"
+                            "color": "rgb(91,84,66)"
                         }
                     }
                 }
@@ -2406,7 +3408,7 @@
         }
     ]
 };
-        chart_27d9731a213a4f0cad68cd01cbd99b1c.setOption(option_27d9731a213a4f0cad68cd01cbd99b1c);
+        chart_36883e11da9441c0b0298475a5785e66.setOption(option_36883e11da9441c0b0298475a5785e66);
     </script>
     </div>
 

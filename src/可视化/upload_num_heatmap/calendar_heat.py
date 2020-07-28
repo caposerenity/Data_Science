@@ -4,6 +4,7 @@ from pyecharts import options as opts
 from pyecharts.charts import Calendar
 
 #  生成学生提交记录的热点图 user_id.html
+# 想要生成所有热点图，注释break
 
 fp = open('calendar_heat_map.json', encoding='utf-8')
 res = fp.read()
@@ -40,3 +41,4 @@ for k in data_.keys():
     )
     name = "uploads_"+k + '.html'
     calendar.render(name)
+    break
